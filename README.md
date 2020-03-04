@@ -138,3 +138,9 @@ The code, documentation, styles, design and images are all distributed
 under the MIT license. This permits you to modify and use them, even
 for commercial use. A copy of the MIT license is found in the LICENSE
 file.
+
+#Final 1:
+
+FINAL 1
+Tras haber reunido en secreto un ejército skaa y haber acabado con las minas de Atium, un valioso metal que el Lord Legislador usaba como moneda y daba a la nobleza para mantenerla a raya, una facción del ejército skaa liderada por un líder de la resistencia skaa decide atacar por su cuenta. Una vez aplastada la rebelión skaa, el Lord Legislador realiza ejecuciones en masa en Luthadel, la capital del Imperio, como respuesta a este alzamiento. En este momento Kelsier pone en marcha el punto final de su plan, enfrentarse al Lord Legislador, pero no es rival para él y es asesinado. Los skaa al ver como Kelsier ha sido capaz de enfrentarse a un Dios se rebelan y la ciudad se sume en el caos. La banda descubre entonces que la muerte de Kelsier no era más que otra parte del plan para crear una revuelta en Luthadel. Vin, la única nacida de la bruma que queda en la banda ahora que Kelsier había muerto, comprende que la tarea de acabar con el Lord Legislador es suya. ESTO ES IGUAL->Para realizar esta valerosa azaña, Vin dispone de los denominados ocho metales básicos:
+Hierro, Acero, Estaño, Peltre, Zinc, Latón, Cobre y Bronce. Además de estos metales Vin conserva un poco de Atium, un metal muy raro y valioso, y una fina barrita del Onceavo Metal que Kelsier le dejó al morir a Vin con la esperanza de que ella pudiera descubrir su poder y usarlo en contra del Lord Legislador.
