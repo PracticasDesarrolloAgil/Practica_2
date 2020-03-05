@@ -24,3 +24,6 @@ Además de estos metales, Vin conserva un poco de _Atium_ que usó en su entrena
 
 **PRODUCT BACKLOG**
 ![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/product_backlog.PNG)
+
+**URL TABLERO TRELLO**
+https://trello.com/b/LbWNg5BI
