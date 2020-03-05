@@ -1,3 +1,4 @@
+**DESCRIPCIÓN DEL JUEGO**
 ### El Imperio Final
 
 En el lejano mundo de _Scadrial_, mil años atrás, el _Héroe de las Eras_ que auguraban las profecías ascendió a la divinidad en el _Pozo de la Ascensión_ para poner fin al terrible mal que acechaba a la humanidad conocida como la _Profundidad_. Aunque la _Profundidad_ fue derrotada, el _Héroe_ adoptó el título de _Lord Legislador_ y gobernó sobre el _Imperio Final_ durante mil años como un tirano inmortal. Bajo su reinado, la sociedad fue jerarquizada en la nobleza, descendientes de los amigos y aliados del _Lord Legislador_, y los _skaa_, los campesinos casi esclavizados descendientes de sus enemigos. Pero no solo la sociedad sufrió cambios, la naturaleza se volvió hostil, las plantas se tornaron oscuras, la ceniza caía de manera incesante, y al anochecer aparecían las temidas brumas por los _skaa_ que lo cubrían todo.
@@ -20,3 +21,6 @@ Hierro, Acero, Estaño, Peltre, Zinc, Latón, Cobre y Bronce. Beneficios que apo
 - **Onceavo Metal:** uso desconocido.
 
 Además de estos metales, Vin conserva un poco de _Atium_ que usó en su entrenamiento con Kelsier, un metal muy raro y valioso, y una fina barrita del _Onceavo Metal_ que Kelsier le dejó al morir a Vin con la esperanza de que ella pudiera descubrir su uso y emplearlo contra el _Lord Legislador_. Además posee una bolsita con monedas, que puede usar como proyectiles o para realizar enormes saltos, y dos dagas de cristal, que no pueden ser atraídas por otros alománticos ya que no están hechas de metal.
+
+**PRODUCT BACKLOG**
+![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/product_backlog.PNG)
