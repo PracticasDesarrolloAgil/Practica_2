@@ -68,7 +68,8 @@ según su dificultad e importancia. En cuanto a cosas que tenemos que mejorar es
 planificación. 
  - **Plan de mejora**: en futuros sprint a la hora de realizar la planificación del trabajo se tendrá en cuenta posibles imprevistos
  de cualquier tipo que puedan surgir. De esta manera no se producirán desajustes en los tiempos de desarrollo de las distinas tareas 
- y se podrán completar todas en los plazos previstos.
+ y se podrán completar todas en los plazos previstos. 
+ Así como una inspección más detallada de los plazos, las herramientas que estamos utilizando para las reuniones (en su caso whatsapp)
  
 **URL PRODUCT BACKLOG**
 https://trello.com/b/LbWNg5BI
