@@ -27,5 +27,51 @@ Un *nacido de la bruma* es una persona que tiene la habilidad de quemar metales 
 **PRODUCT BACKLOG**
 ![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/product_backlog.PNG)
 
-**URL TABLERO TRELLO**
+**SPRINT BACKLOG**
+![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint1_inicio.PNG)
+Hemos decidido implementar esas historias de usuario porque consideramos que son los puntos básicos que se deben desarrollar primero
+para tener un juego funcional (cambiar de situación, guardar la partida, borrar la partida, etc).
+
+**PRODUCT BACKLOG REFINEMENT**
+![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement_inicio.PNG)
+
+**SPRINT BACKLOG (después del PRODUCT BACKLOG REFINEMENT)**
+![Captura Sprint Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint_refinement.PNG) 
+
+**PRODUCT BACKLOG (final del sprint)**
+![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement.PNG)
+
+**SPRINT BACKLOG (final del srpint)**
+![Captura Sprint Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint1_final.PNG)
+
+**SPRINT REVIEW**
+  Todas las tareas de las historias de usuario que se añadieron al Sprint Backlog (historias 2,4,5,11,12) se han completado. 
+Viendo que el desarrollo avanzaba sin problemas e íbamos a tener tiempo, decidimos incluir el nuevo requisito en nuestro
+Sprint Backlog. El nuevo requisito se descompuso en tareas y se les asignó a cada miembro del equipo. Al final del sprint
+las tareas del nuevo requisito también han sido completadas.
+  A lo largo del primer sprint no surgieron demasiados problemas, o al menos no demasiado importantes, con las historias de 
+ usuario que íbamos a implementar al principio. Los problemas surgieron al intentar implementar el nuevo requisito ya que teníamos
+ muchas ideas en mente para realizar el diseño de nuestro juego.
+ - **Problemas**: problemas con el diseño del juego al usar distintos tamaños de pantalla, problemas para implementar un menú
+ desplegable, problemas para implementar audios, problemas para crear ventanas emergentes.
+ - **Soluciones**: los problemas con diferentes tamaños de pantalla se han solucionado dejando los valores por defecto del tutorial
+ de Undum. Para el audio existe un problema por el cual no se reproduce la lista de audios que tiene el juego, reproduciendo solo el 
+ primero. Este error aún no ha podido ser solucionado. El problema con las ventanas emergentes se ha solucionado cambiando el tamaño
+ de las mismas y su disposición en pantalla. Los problemas con el menú del juego se han solucionado no implementándolo, en su lugar
+ se han tomado otras decisiones de diseño que hace innecesario tener un menú con distintas opciones.
+Para el siguiente sprint los requisitos que se implementarán son aquellos que tienen un valor demasiado alto o son innegociables. Con esto pretendemos dejar listo cuanto antes estos requisitos por si en el futuro apareciesen nuevos requisitos que nos dificultasen
+el poder implementar estos requisitos.
+ 
+**SPRINT RETROSPECTIVE**
+Haciendo una valoración de este sprint podemos decir que lo mejor que ha funcionado ha sido planificar la implementación de requisitos
+según su dificultad e importancia. En cuanto a cosas que tenemos que mejorar está la flexibilidad para incluir imprevistos en nuestra
+planificación. 
+ - **Plan de mejora**: en futuros sprint a la hora de realizar la planificación del trabajo se tendrá en cuenta posibles imprevistos
+ de cualquier tipo que puedan surgir. De esta manera no se producirán desajustes en los tiempos de desarrollo de las distinas tareas 
+ y se podrán completar todas en los plazos previstos.
+ 
+**URL PRODUCT BACKLOG**
 https://trello.com/b/LbWNg5BI
+
+**URL SPRINT BACKLOG (sprint 1)**
+https://trello.com/b/hcqBWF40
