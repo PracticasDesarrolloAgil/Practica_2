@@ -69,7 +69,7 @@ planificación.
  - **Plan de mejora**: en futuros sprint a la hora de realizar la planificación del trabajo se tendrá en cuenta posibles imprevistos
  de cualquier tipo que puedan surgir. De esta manera no se producirán desajustes en los tiempos de desarrollo de las distinas tareas 
  y se podrán completar todas en los plazos previstos. 
- Así como una inspección más detallada de los plazos, las herramientas que estamos utilizando para las reuniones (en su caso whatsapp)
+ Así como una inspección más detallada de los plazos, las herramientas que estamos utilizando para las reuniones (en su caso WhatsApp debido a la situación, trabajmos de manera remota en su defecto).
  
 **URL PRODUCT BACKLOG**
 https://trello.com/b/LbWNg5BI
