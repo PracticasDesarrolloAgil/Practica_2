@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <!-- Titulo del Juego: -->
+    <title>El Imperio Final</title>
+    <!-- Fin del Titulo del Juego -->
+
+    <!-- Eliminar si no se usa la fuente Tangerine en la hoja de estilo. -->
+    <link href='http://fonts.googleapis.com/css?family=Tangerine'
+          rel='stylesheet' type='text/css'>
+
+    <!-- Hoja de estilo -->
+    <link media="screen"
+          rel="stylesheet" href="media/css/undum.css">
+	<link rel="shortcut icon" href="media/img/icon.png" />
+	<video autoplay muted loop id="myVideo">
+		<source src="media/img/page_bg.mp4" type="video/mp4">
+	</video>
+	<audio id="myAudio" autoplay>
+		<source src="media/music/song1.mp3" type="audio/mp3">
+		<source src="media/music/song2.mp3" type="audio/mp3">
+	</audio>
+
+    <!-- Soporte para dispositivos moviles -->
+    <meta name="viewport" content="user-scalable=no, width=device-width">
+    <link rel="apple-touch-icon" href="media/img/iphone/icon.png">
+    <link rel="apple-touch-startup-image" href="media/img/iphone/splash.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--[if !IE]>-->
+    <link media="only screen and (max-width: 640px)"
+          rel="stylesheet" type="text/css" href="media/css/undum-mobile.css">
+    <!--<![endif]-->
+
+  </head>
+  <body>
+    <!-- Esto no es necesario y no es visible en las versiones de escritorio,
+         porque podemos mostrar la informacion del personaje y las
+         herramientas en pantalla todo el tiempo. -->
+    <div id="toolbar">
+      <!-- Pequeña version del titulo, para la
+           barra de herramientas en dispositivos moviles. -->
+      <h1>El Imperio Final</h1>
+      <div class="nav">
+        <a href="#" class="button" id="menu-button">Men&uacute;</a>
+      </div>
+    </div>
+    <ul id="menu">
+      <li><a href="#title, #content_wrapper">Historia</a></li>
+      <li><a href="#character_panel">Personaje</a></li>
+      <li><a href="#info_panel">Informaci&oacute;n</a></li>
+    </ul>
+
+    <div id="page">
+
+      <div id="tools_wrapper">
+        <div id="info_panel" class="tools left">
+
+			<!-- Panel izquierdo -->
+			<h1><b>Metales Alom&aacute;nticos</b></h1>
+			<p align="center">
+				<img src="media/img/Hierro.png"/><span style="cursor:pointer" id="myBtn1"> Hierro</span></br>
+				<img src="media/img/Acero.png"/><span style="cursor:pointer" id="myBtn2"> Acero</span></br>
+				<img src="media/img/Estaño.png"/><span style="cursor:pointer" id="myBtn3"> Esta&ntilde;o</span></br>
+				<img src="media/img/Peltre.png"/><span style="cursor:pointer" id="myBtn4"> Peltre</span></br>
+				<img src="media/img/Zinc.png"/><span style="cursor:pointer" id="myBtn5"> Zinc</span></br>
+				<img src="media/img/Laton.png"/><span style="cursor:pointer" id="myBtn6"> Lat&oacute;n</span></br>
+				<img src="media/img/Cobre.png"/><span style="cursor:pointer" id="myBtn7"> Cobre</span></br>
+				<img src="media/img/Bronce.png"/><span style="cursor:pointer" id="myBtn8"> Bronce</span></br>
+				<img src="media/img/Atium.png"/><span style="cursor:pointer" id="myBtn9"> Atium</span>
+			</p>
+			<div id="myModal1" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Hierro</h1>
+					<p>
+						Los brumosos atraedores que queman hierro pueden tirar de fuentes cercanas de metal.
+						Los tirones deben ser dirigidos hacia el centro de gravedad del atraedor.
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal2" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Acero</h1>
+					<p>
+						Los brumosos lanzamonedas que queman acero pueden empujar fuentes cercanas de metal. 
+						Los empujones deben ser impelidos directamente desde el centro de gravedad del lanzamonedas.
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal3" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Esta&ntilde;o</h1>
+					<p>
+						Los brumosos ojos de estaño que queman estaño aumentan la sensibilidad de sus cinco sentidos.
+						Todos se incrementan al mismo tiempo. 
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal4" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Peltre</h1>
+					<p>
+						Los brumosos brazos de peltre, o violentos, queman peltre para aumentar su fuerza, velocidad y resistencia
+						física, aumentando también la capacidad de su cuerpo para sanar. 
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal5" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Zinc</h1>
+					<p>
+						Los brumosos encendedores queman zinc para inflamar (encender) las emociones de los individuos cercanos.
+						Puede dirigirse a un solo individuo o a una zona general, y el encendedor puede concentrarse en emociones concretas.
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal6" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Lat&oacute;n</h1>
+					<p>
+						Los brumosos aplacadores queman lat&oacute;n para aplacar las emociones de los individuos cercanos.
+						Puede hacerse con un individuo concreto o con un &aacute;rea general, y el aplacador puede concentrarse en emociones concretas. 
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal7" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Cobre</h1>
+					<p>
+						Los ahumadores queman cobre para crear una nube invisible a su alrededor, que oculta a los alom&aacute;nticos
+						cercanos para que no sean detectados por un buscador y que protege a los individuos cercanos de los efectos de la alomancia emocional. 
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal8" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Bronce</h1>
+					<p>
+						Los brumosos buscadores queman bronce para «o&iacute;r» los pulsos emitidos por otros alománticos que queman metales.
+						Diferentes metales producen pulsos diferentes.
+					</p>
+				</div>
+			</div>
+			
+			<div id="myModal9" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Atium</h1>
+					<p>
+						Un alom&aacute;ntico que quema Atium es capaz de ver el futuro en unos segundos. 
+					</p>
+				</div>
+			</div>
+			
+			<!-- Fin del panel izquierdo -->
+        </div>
+
+        <div id="character_panel" class="tools right">
+			<h1><b>Personaje</b></h1>
+			<div id="character" title="En construcción">
+				<div id="character_text">
+					<div id="character_text_content"></div>
+				</div>
+				<div id="qualities"></div>
+			</div>
+			<div class='buttons'>
+				<button id="save">Guardar</button><button id="erase">Borrar</button>
+			</div>
+        </div>
+		
+		<div id="sound_panel" class="tools sound">
+			<img src="media/img/sound-on.png" id="sound" onclick="sound()" title="Activar sonido" alt="Toggle sound"/>
+		</div>
+      </div> <!-- Final del div.content_wrapper -->
+
+      <div id="mid_panel">
+        <div id="title">
+          <div class="label">
+
+            <!-- Titulo del Juego: -->
+            <h1>El Imperio Final</h1>
+            <h2>por &Aacute;lvaro Barranco Garc&iacute;a, Francisco Javier Torres Almagro y Safwan Atef Rahif</h2>
+            <!-- Final del Titulo del Juego -->
+            <noscript><p class="noscript_message">Este juego requiere Javascript.</p></noscript>
+            <p class="click_message">Haz click para comenzar</p>
+          </div>
+        </div>
+
+        <div id="content_wrapper">
+          <div id="content">
+          </div>
+          <a name="end_of_content"></a>
+        </div>
+
+        <div id="legal">
+          <!-- Copyright: -->
+		  <p>&copy; &Aacute;lvaro Barranco Garc&iacute;a, Francisco Javier Torres Almagro y Safwan Atef Rahif, 2020
+          <p>Parts of the software and design &copy; 2010 IDM. Undum is available <a href="http://idmillington.github.io/undum/">here</a>. Derivative works must include this copyright line and link.</p>
+          <!-- Final del Copyright -->
+        </div>
+      </div>
+    </div> <!-- Fin de div.page -->
+
+    <!-- Contiene elementos de la IU que seran clonados y colocados en la pagina
+         principal. Este bloque esta siempre oculto. -->
+    <div id="ui_library">
+      <div id="quality" class="quality">
+        <span class="name" data-attr="name"></span>
+        <span class="value" data-attr="value"></span>
+      </div>
+
+      <div id="quality_group" class="quality_group">
+        <h2 data-attr="title"></h2>
+        <div class="qualities_in_group">
+        </div>
+      </div>
+
+      <div id="progress_bar" class="progress_bar">
+        <span class="name" data-attr="name"></span>
+        <span class="value" data-attr="value"></span>
+        <div class="progress_bar_track">
+          <div class="progress_bar_color" data-attr="width">
+          </div>
+        </div>
+        <span class="left_label" data-attr="left_label"></span>
+        <span class="right_label" data-attr="right_label"></span>
+      </div>
+
+      <hr id="turn_separator">
+    </div>
+
+    <!-- No es necesario tener este bloque aqui, pero esta definido en
+         el fichero CSS como oculto, asi que es conveniente ocultar el contenido
+         que se quiere cargar del codigo del juego. -->
+    <div id="content_library">
+      <div id="s_situations">
+        <h1>Situations</h1>
+        <p>
+          In Undum, all interaction takes place in a situation. You
+          can think of it either as a 'Room' in traditional
+          interactive fiction (although it is less flexible than
+          that), or as a 'Page' in a Choose Your Own Adventure book
+          (though it is more flexible than that).
+        </p>
+        <p>
+          At any point, the character is in exactly one situation, and
+          that situation is responsible for everything that happens to
+          them. Situations are chunks of code that generate the output
+          you are reading here. For example, this text was generated
+          by the <em>enter</em> method of the 'situations' situation.
+        </p>
+        <p class='transient'>
+          Let's <a href='todo'>move on again</a>.
+        </p>
+      </div>
+
+      <div id="s_saving">
+        <h1>Saving and Loading</h1>
+        <p>The only piece of the UI we haven't talked about is the
+          'Save' and 'Erase' buttons on the left panel. These are only
+          visible if your browser supports client-side data
+          storage. Clicking 'Save' stores your game, so you can pick
+          it up again later. There is currently no 'Load' button, the
+          game loads when the page loads. There is also no way to save
+          multiple games, and select which one you want to play. These
+          are both things I'd like to change in the future.
+        </p>
+        <p>
+          Potentially your game could generate huge amounts of
+          text. And that would be difficult to store client side
+          (there are unpredictable limits), especially when we move
+          towards having multiple save files. So instead Undum saves
+          your character as the list of links you clicked. Loading a
+          save-file consists of playing through your game again,
+          quickly. This is a beneficial approach for debugging too. It
+          means when you're polishing and correcting typos, you can
+          save and load the game and scroll through the transcript to
+          see your corrections. If we saved the text, your save file
+          would have the error in it and you'd have to manually replay
+          the game to see the correction.
+        </p>
+        <p class='transient'>
+          Let's return to the <a href='hub'>topic list</a>.
+        </p>
+      </div>
+
+      <!-- Situaciones definidas en el HTML -->
+      <div id="hub" class="situation" data-choices="#topic"
+           data-option-text="View Topic List">
+        <h1 class="transient">Topics</h1>
+        <p class="transient">Choose a topic to find out about next. If
+          in doubt, go through the topics in order.</p>
+      </div>
+
+      <div id="implicit" class="situation" data-tags="topic"
+           data-heading="Implicit Choices" data-display-order="7"
+           data-choices="#example">
+        <p>When you're writing an Undum game, you often need certain
+          options to be available only when certain conditions hold. You
+          might have an option to remove a secret panel in a haunted
+          house, but that should only be visible if the character knows
+          where it is. If options are available in lots of situations, it
+          can be very difficult to keep track of what options are
+          allowed, and to produce just the right list of choices.</p>
+        <p>To help with this, Undum can generate a list of situation
+          links for you. It does this in three steps. Firstly, each
+          situation can be given one or more tags, this allows you to
+          easily ask for links to all situations with the 'in-hallway'
+          tag, for example. Secondly, situations can have
+          a <em>canView</em> method, which gets to decide whether that
+          situation should appear. That method can look at the
+          current state of the character to decide whether to appear
+          or not. Thirdly, <em>SimpleSituation</em>s have a <em>choices</em>
+          option. If it is set to one or more tags, it handles the building
+          of the choice list.</p>
+        <p>You've seen this already in the topic list. The topic list
+          is generated automatically. All of the situations in the topic
+          list are always available, however.
+          <span class="transient">So here is an example of
+          automatic options that may change:</span></p>
+      </div>
+
+      <div id="example-choices" class="situation" data-choices="#example">
+        <p class="transient">You can return to the
+          <a href='hub'>Topic List</a> or choose another option from
+          this example:</p>
+      </div>
+    </div>
+
+    <!-- Carga las librerias que usamos -->
+    <script type="text/javascript" src="media/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="media/js/undum.js"></script>
+
+    <!-- Archivo javascript del juego -->
+    <script type="text/javascript"
+            src="media/js/elimperiofinal.game.es.js"></script>
+  </body>
+</html>
