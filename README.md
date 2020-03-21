@@ -21,6 +21,7 @@ Un *nacido de la bruma* es una persona que tiene la habilidad de quemar metales 
 - **Cobre:** cuando se quema cobre se crea una nube invisible alrededor del usuario que lo protege de personas que intenten usar el zinc o el latón en su contra. Además si se quema cobre las demás personas no pueden detectar que el usuario está quemando metales.
 - **Bronce:** al quemar bronce se pueden oír los pulsos alománticos que emiten las personas al quemar metales. 
 - **Atium:** permite ver lo que ocurrirá en los próximos segundos.
+- **Oro:** Los brumosos augures queman oro para tener una visión del yo pasado o de cómo habrían resultado las cosas de haber tomado opciones distintas en el pasado. 
 - **Undécimo Metal:** este metal fue descubierto por Kelsier. Aunque no llegó a encontrarle ninguna utilidad, difundió rumores sobre este metal y su poder para acabar con el Lord Legislador entre los skaa y la nobleza.
 
 
