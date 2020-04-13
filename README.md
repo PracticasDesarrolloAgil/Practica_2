@@ -25,27 +25,27 @@ Un *nacido de la bruma* es una persona que tiene la habilidad de quemar metales 
 - **Undécimo Metal:** este metal fue descubierto por Kelsier. Aunque no llegó a encontrarle ninguna utilidad, difundió rumores sobre este metal y su poder para acabar con el Lord Legislador entre los skaa y la nobleza.
 
 
-**PRODUCT BACKLOG**
+### PRODUCT BACKLOG
 ![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/product_backlog.PNG)
 
-**SPRINT BACKLOG**
+### SPRINT BACKLOG
 ![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint1_inicio.PNG)
 Hemos decidido implementar esas historias de usuario porque consideramos que son los puntos básicos que se deben desarrollar primero
 para tener un juego funcional (cambiar de situación, guardar la partida, borrar la partida, etc).
 
-**PRODUCT BACKLOG REFINEMENT**
+### PRODUCT BACKLOG REFINEMENT
 ![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement_inicio.PNG)
 
-**SPRINT BACKLOG (después del PRODUCT BACKLOG REFINEMENT)**
+### SPRINT BACKLOG (después del PRODUCT BACKLOG REFINEMENT)
 ![Captura Sprint Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint_refinement.PNG) 
 
-**PRODUCT BACKLOG (final del sprint)**
+### PRODUCT BACKLOG (final del sprint)
 ![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement.PNG)
 
-**SPRINT BACKLOG (final del srpint)**
+### SPRINT BACKLOG (final del srpint)
 ![Captura Sprint Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint1_final.PNG)
 
-**SPRINT REVIEW**
+### SPRINT REVIEW
   Todas las tareas de las historias de usuario que se añadieron al Sprint Backlog (historias 2,4,5,11,12) se han completado. 
 Viendo que el desarrollo avanzaba sin problemas e íbamos a tener tiempo, decidimos incluir el nuevo requisito en nuestro
 Sprint Backlog. El nuevo requisito se descompuso en tareas y se les asignó a cada miembro del equipo. Al final del sprint
@@ -63,7 +63,7 @@ las tareas del nuevo requisito también han sido completadas.
 Para el siguiente sprint los requisitos que se implementarán son aquellos que tienen un valor demasiado alto o son innegociables. Con esto pretendemos dejar listo cuanto antes estos requisitos por si en el futuro apareciesen nuevos requisitos que nos dificultasen
 el poder implementar estos requisitos.
  
-**SPRINT RETROSPECTIVE**
+### SPRINT RETROSPECTIVE
 Haciendo una valoración de este sprint podemos decir que lo mejor que ha funcionado ha sido planificar la implementación de requisitos
 según su dificultad e importancia. En cuanto a cosas que tenemos que mejorar está la flexibilidad para incluir imprevistos en nuestra
 planificación. 
@@ -72,8 +72,8 @@ planificación.
  y se podrán completar todas en los plazos previstos. 
  Así como una inspección más detallada de los plazos, las herramientas que estamos utilizando para las reuniones (en su caso WhatsApp debido a la situación, trabajmos de manera remota en su defecto).
  
-**URL PRODUCT BACKLOG**
+### URL PRODUCT BACKLOG
 https://trello.com/b/LbWNg5BI
 
-**URL SPRINT BACKLOG (sprint 1)**
+### URL SPRINT BACKLOG (sprint 1)
 https://trello.com/b/hcqBWF40
