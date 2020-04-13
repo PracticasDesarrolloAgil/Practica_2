@@ -105,15 +105,8 @@ las tareas del nuevo requisito también han sido completadas.
   A lo largo del primer sprint no surgieron demasiados problemas, o al menos no demasiado importantes, con las historias de 
  usuario que íbamos a implementar al principio. Los problemas surgieron al intentar implementar el nuevo requisito ya que teníamos
  muchas ideas en mente para realizar el diseño de nuestro juego.
- - **Problemas**: problemas con el diseño del juego al usar distintos tamaños de pantalla, problemas para implementar un menú
- desplegable, problemas para implementar audios, problemas para crear ventanas emergentes.
- - **Soluciones**: los problemas con diferentes tamaños de pantalla se han solucionado dejando los valores por defecto del tutorial
- de Undum. Para el audio existe un problema por el cual no se reproduce la lista de audios que tiene el juego, reproduciendo solo el 
- primero. Este error aún no ha podido ser solucionado. El problema con las ventanas emergentes se ha solucionado cambiando el tamaño
- de las mismas y su disposición en pantalla. Los problemas con el menú del juego se han solucionado no implementándolo, en su lugar
- se han tomado otras decisiones de diseño que hace innecesario tener un menú con distintas opciones.
-Para el siguiente sprint los requisitos que se implementarán son aquellos que tienen un valor demasiado alto o son innegociables. Con esto pretendemos dejar listo cuanto antes estos requisitos por si en el futuro apareciesen nuevos requisitos que nos dificultasen
-el poder implementar estos requisitos.
+ - **Problemas**: Las imágenes de las situaciones si se ponían en el centro podrían entorpecer la lectura del juego. La barra de progreso no ha podido ponerse a visible, incluso activando la función que lo administra.
+ - **Soluciones**: Alinear las imágenes a la derecha del texto.
  
 ### 7.SPRINT RETROSPECTIVE
 Haciendo una valoración de este sprint podemos decir que lo mejor que ha funcionado ha sido planificar la implementación de requisitos
