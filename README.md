@@ -109,13 +109,10 @@ las tareas del nuevo requisito también han sido completadas.
  - **Soluciones**: Alinear las imágenes a la derecha del texto.
  
 ### 7.SPRINT RETROSPECTIVE
-Haciendo una valoración de este sprint podemos decir que lo mejor que ha funcionado ha sido planificar la implementación de requisitos
-según su dificultad e importancia. En cuanto a cosas que tenemos que mejorar está la flexibilidad para incluir imprevistos en nuestra
-planificación. 
- - **Plan de mejora**: en futuros sprint a la hora de realizar la planificación del trabajo se tendrá en cuenta posibles imprevistos
- de cualquier tipo que puedan surgir. De esta manera no se producirán desajustes en los tiempos de desarrollo de las distinas tareas 
- y se podrán completar todas en los plazos previstos. 
- Así como una inspección más detallada de los plazos, las herramientas que estamos utilizando para las reuniones (en su caso WhatsApp debido a la situación, trabajmos de manera remota en su defecto).
+ En el caso de este segundo sprint se nota el cambio del primero hasta ahora sobretodo en comunicación y a la hora de realizar el         reparto de tareas asignadas a cada uno según su dificultad para hacer un reparto lo más balanceado posible.
+ - **Plan de mejora**: Hablando de los puntos que debemos mejorar destacamos el ir implemantando y testeando tareas con mayor brevedad        para no ir haciendo cambios de última hora que propicien errores no deseados como desajustes de planificación y/o desarrollo.
+
+ -Las herramientas usadas han sido las mismas que en el primer sprint, WhattsApp, Google Drive etc...
  
 ### 8.URLs
   - https://trello.com/b/LbWNg5BI (Product Backlog)
