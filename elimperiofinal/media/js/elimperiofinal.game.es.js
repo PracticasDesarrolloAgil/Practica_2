@@ -76,6 +76,7 @@ undum.game.situations = {
 	),
     entrada: new undum.SimpleSituation(
         "<h1>Entrada a Kredik Shaw</h1>\
+		<img src='media/img/entrada.jpg' class='float_right'>\
         <p>Vin se dirigió hacia Kredik Shaw. Del cielo de color rojo cubierto de\
 		nubes comenzó a caer ceniza. A lo lejos se podía ver reflejado en las brumas\
 		las antorchas de los skaa. La revuelta estaba ganando adeptos y cada\
@@ -164,119 +165,461 @@ undum.game.situations = {
 		<p class='transient'><a href='pasillo'>Continuar</a></p>"
 	),
 	pasillo: new undum.SimpleSituation(
-	"<h1>Pasillo de Entrada</h1>\
-	<p>Vin atravesó el pasillo, pasando al lado de una sala de guardia. Justo cuando iba\
-	a enfilar el siguiente pasillo un guardia salió de la sala y la vio. Enseguida dio la\
-	voz de alarma y los demás guardias entraron corriendo en el pasillo. Era un grupo demasiado\
-	grande para que ella sola pudiese hacerles frente. El lugar en el que se encontraba tampoco\
-	le era de mucha ayuda, ya que las dimensiones del pasillo no le permitían maniobrar con tanta\
-	libertad como podía hacerlo en el exterior.</p>\
-	\
-	<p class='transient'> No tenía muchas opciones, al no poder luchar contra tantos enemigos en un lugar cerrado.\
-	Podría quemar <a href='estanio_situacion2'>estaño</a> con la esperanza de poder ver algo en el pasillo que le pudiera ser de\
-	ayuda. Aunque también podría <a href='acero2_situacion2'>lanzarles las últimas monedas</a> que le quedaba y huir mientras\
-	trataban de ponerse a salvo. O simplemente aumentar su velocidad quemando <a href='peltre_situacion2'>peltre</a> y salir\
-	corriendo.</p>"
+		"<h1>Pasillo de Entrada</h1>\
+		<img src='media/img/pasillo.jpg' class='float_right'>\
+		<p>Vin atravesó el pasillo, pasando al lado de una sala de guardia. Justo cuando iba\
+		a enfilar el siguiente pasillo un guardia salió de la sala y la vio. Enseguida dio la\
+		voz de alarma y los demás guardias entraron corriendo en el pasillo. Era un grupo demasiado\
+		grande para que ella sola pudiese hacerles frente. El lugar en el que se encontraba tampoco\
+		le era de mucha ayuda, ya que las dimensiones del pasillo no le permitían maniobrar con tanta\
+		libertad como podía hacerlo en el exterior.</p>\
+		\
+		<p class='transient'> No tenía muchas opciones, al no poder luchar contra tantos enemigos en un lugar cerrado.\
+		Podría quemar <a href='estanio_situacion2'>estaño</a> con la esperanza de poder ver algo en el pasillo que le pudiera ser de\
+		ayuda. Aunque también podría <a href='acero2_situacion2'>lanzarles las últimas monedas</a> que le quedaba y huir mientras\
+		trataban de ponerse a salvo. O simplemente aumentar su velocidad quemando <a href='peltre_situacion2'>peltre</a> y salir\
+		corriendo.</p>"
 	),
 	estanio_situacion2: new undum.SimpleSituation(
-	"<p>Al quemar estaño todos sus sentidos se volvieron más agudos. De repente,\
-	una fuerte luz cegó a Vin. Al quemar estaño su vista se había vuelto demasiado\
-	sensible, de modo que la luz que emitían las linternas que alumbraban el pasillo\
-	la deslumbraron. Uno de los guardias alcanzó a golpearla con su bastón en el\
-	hombro izquierdo. El fuerte dolor hizo que reaccionara, apagó su estaño y siguió\
-	corriendo por el pasillo. Mientras lo hacía se fijó en aquellas linternas, más en\
-	concreto en los soportes metálicos de las linternas. Si quemaba <a href='acero_situacion2'>acero</a> se podría\
-	impulsar hacia delante empujando aquellos soportes.</p>"
+		"<p>Al quemar estaño todos sus sentidos se volvieron más agudos. De repente,\
+		una fuerte luz cegó a Vin. Al quemar estaño su vista se había vuelto demasiado\
+		sensible, de modo que la luz que emitían las linternas que alumbraban el pasillo\
+		la deslumbraron. Uno de los guardias alcanzó a golpearla con su bastón en el\
+		hombro izquierdo. El fuerte dolor hizo que reaccionara, apagó su estaño y siguió\
+		corriendo por el pasillo. Mientras lo hacía se fijó en aquellas linternas, más en\
+		concreto en los soportes metálicos de las linternas. Si quemaba <a href='acero_situacion2'>acero</a> se podría\
+		impulsar hacia delante empujando aquellos soportes.</p>"
 	),
 	acero_situacion2: new undum.SimpleSituation(
-	"<p>Así lo hizo, quemó acero y unas líneas azules que apuntaban hacia los soportes\
-	de metal aparecieron ante los ojos de Vin. Empujó con todas sus fuerzas y salió\
-	despedida en dirección contraria a los guardias, atravesando el pasillo. Cuando las\
-	voces de los aquellos hombres apenas se escuchaba dejó de impulsarse, estaba tan\
-	lejos que ni corriendo podrían alcanzarla. Continuó sin prisa, entrando en otro\
-	pasillo que daba a una cámara central abovedada.</p>\
-	\
-	<p class='transient'><a href='camara'>Continuar</a></p>"
+		"<p>Así lo hizo, quemó acero y unas líneas azules que apuntaban hacia los soportes\
+		de metal aparecieron ante los ojos de Vin. Empujó con todas sus fuerzas y salió\
+		despedida en dirección contraria a los guardias, atravesando el pasillo. Cuando las\
+		voces de los aquellos hombres apenas se escuchaba dejó de impulsarse, estaba tan\
+		lejos que ni corriendo podrían alcanzarla. Continuó sin prisa, entrando en otro\
+		pasillo que daba a una cámara central abovedada.</p>\
+		\
+		<p class='transient'><a href='camara'>Continuar</a></p>"
 	),
 	acero2_situacion2: new undum.SimpleSituation(
-	"<p>Vin cogió las pocas monedas que le quedaban. No sería suficiente para acabar\
-	con todos los guardias, pero confiaba en que hiriesen a unos cuantos y los\
-	entretuviesen. Lanzó las monedas al aire y las empujó contra los guardias. Se\
-	escuchó los gritos de algunos soldados que fueron alcanzados por los proyectiles.\
-	Durante un momento se quedaron quietos intentando protegerse de nuevas monedas que\
-	Vin pudiera lanzarles. Para cuando se recuperaron del ataque Vin ya había\
-	desaparecido a través del pasillo. Intentaron perseguirla pero ella ya estaba\
-	demasiado lejos. Cuando sus voces apenas se oían, VIn dejó de correr. Pasó a otro\
-	pasillo que desembocaba en una cámara central abovedada.</p>\
-	\
-	<p class='transient'><a href='camara'>Continuar</a></p>"
+		"<p>Vin cogió las pocas monedas que le quedaban. No sería suficiente para acabar\
+		con todos los guardias, pero confiaba en que hiriesen a unos cuantos y los\
+		entretuviesen. Lanzó las monedas al aire y las empujó contra los guardias. Se\
+		escuchó los gritos de algunos soldados que fueron alcanzados por los proyectiles.\
+		Durante un momento se quedaron quietos intentando protegerse de nuevas monedas que\
+		Vin pudiera lanzarles. Para cuando se recuperaron del ataque Vin ya había\
+		desaparecido a través del pasillo. Intentaron perseguirla pero ella ya estaba\
+		demasiado lejos. Cuando sus voces apenas se oían, VIn dejó de correr. Pasó a otro\
+		pasillo que desembocaba en una cámara central abovedada.</p>\
+		\
+		<p class='transient'><a href='camara'>Continuar</a></p>"
 	),
 	peltre_situacion2: new undum.SimpleSituation(
-	"<p>Aunque no le serviría para enfrentarse a ellos, sí que le permitiría huir de\
-	ellos. Al quemar peltre podría correr más rápido que cualquier ser humano normal.\
-	Quemó el metal y echó a correr por el pasillo. En pocos instantes se encontró tan\
-	lejos de ellos que apenas se les podía oír. Llegó a un pasillo que le llevó a una\
-	sala central abovedada.</p>\
-	\
-	<p class='transient'><a href='camara'>Continuar</a></p>"
+		"<p>Aunque no le serviría para enfrentarse a ellos, sí que le permitiría huir de\
+		ellos. Al quemar peltre podría correr más rápido que cualquier ser humano normal.\
+		Quemó el metal y echó a correr por el pasillo. En pocos instantes se encontró tan\
+		lejos de ellos que apenas se les podía oír. Llegó a un pasillo que le llevó a una\
+		sala central abovedada.</p>\
+		\
+		<p class='transient'><a href='camara'>Continuar</a></p>"
 	),
 	camara: new undum.SimpleSituation(
-	"<h1>Cámara Central Abovedada</h1>\
-	<p>Dentro de aquella enorme cámara, con suelos de mármol negro y grandes braseros en los\
-	rincones, había otro edificio justo en el centro custodiado por dos inquisidores. Vin\
-	se acercó a aquellos seres que parecían observarla. Aunque no sabía de qué manera lo hacían\
-	ya que en el lugar donde deberían tener los ojos había dos enormes clavos que sobresalían\
-	por la parte trasera de sus cabezas. Eran mucho más altos que ella, uno de ellos medía por\
-	lo menos medio metro más que Vin.</p>\
-	\
-	<p>- Te hemos estado buscando - dijo un inquisidor mientras sonreía.\
-	No era la primera vez que Vin pisaba aquella cámara. La última vez lo hizo acompañada\
-	por Kelsier. Sea lo que fuese que hubiera en aquel edificio tenía que ser importante para\
-	que estuviera protegido por dos inquisidores. Eso fue lo que en la anterior ocasión\
-	intentaron descubrir, si lo que allí estaba guardado estaba relacionado con el poder del\
-	Lord Legislador.</p>\
-	\
-	<p class='transient'>Para poder deshacerse de los inquisidores tenía que actuar rápido. Si quemaba <a href='atium_situacion3'>Atium</a> podría\
-	realizar un ataque por sorpresa anteponiendose a sus movimientos, pero corría el peligro de\
-	que ellos utilizaran también Atium. Si eso ocurría, Vin no podría ver qué harían los inquisidores\
-	ni los inquisidores podrían ver lo que haría ella, o peor aún, que sus reservas de Atium fuesen mayor que las de Vin y\
-	se quedase sin Atium antes que ellos. Aunque tenía un as bajo la manga. No estaba segura de\
-	cómo podían ver aquellos seres, pero sí sabía que al igual que ella también podían quemar acero y hierro,\
-	lo que significa que pueden percibir fuentes cercanas de metal. Arrojarles un puñado de\
-	<a href='polvo_situacion3'>polvo metálico</a> provocaría que los inquisidores viesen una línea azul apuntando hacia cada\
-	grano de metal. De este modo durante un tiempo quedarían “cegados” dándole a ella el tiempo\
-	suficiente para entrar en aquel extraño edificio y descubrir qué había en su interior.</p>"
+		"<h1>Cámara Central Abovedada</h1>\
+		<img src='media/img/camara.jpg' class='float_right'>\
+		<p>Dentro de aquella enorme cámara, con suelos de mármol negro y grandes braseros en los\
+		rincones, había otro edificio justo en el centro custodiado por dos inquisidores. Vin\
+		se acercó a aquellos seres que parecían observarla. Aunque no sabía de qué manera lo hacían\
+		ya que en el lugar donde deberían tener los ojos había dos enormes clavos que sobresalían\
+		por la parte trasera de sus cabezas. Eran mucho más altos que ella, uno de ellos medía por\
+		lo menos medio metro más que Vin.</p>\
+		\
+		<p>- Te hemos estado buscando - dijo un inquisidor mientras sonreía.\
+		No era la primera vez que Vin pisaba aquella cámara. La última vez lo hizo acompañada\
+		por Kelsier. Sea lo que fuese que hubiera en aquel edificio tenía que ser importante para\
+		que estuviera protegido por dos inquisidores. Eso fue lo que en la anterior ocasión\
+		intentaron descubrir, si lo que allí estaba guardado estaba relacionado con el poder del\
+		Lord Legislador.</p>\
+		\
+		<p class='transient'>Para poder deshacerse de los inquisidores tenía que actuar rápido. Si quemaba <a href='atium_situacion3'>Atium</a> podría\
+		realizar un ataque por sorpresa anteponiendose a sus movimientos, pero corría el peligro de\
+		que ellos utilizaran también Atium. Si eso ocurría, Vin no podría ver qué harían los inquisidores\
+		ni los inquisidores podrían ver lo que haría ella, o peor aún, que sus reservas de Atium fuesen mayor que las de Vin y\
+		se quedase sin Atium antes que ellos. Aunque tenía un as bajo la manga. No estaba segura de\
+		cómo podían ver aquellos seres, pero sí sabía que al igual que ella también podían quemar acero y hierro,\
+		lo que significa que pueden percibir fuentes cercanas de metal. Arrojarles un puñado de\
+		<a href='polvo_situacion3'>polvo metálico</a> provocaría que los inquisidores viesen una línea azul apuntando hacia cada\
+		grano de metal. De este modo durante un tiempo quedarían “cegados” dándole a ella el tiempo\
+		suficiente para entrar en aquel extraño edificio y descubrir qué había en su interior.</p>"
 	),
 	atium_situacion3: new undum.SimpleSituation(
-	"<p>Al comenzar a quemar Atium surgieron dos sombras idénticas a esos dos inquisidores.\
-	Se dirigían hacia ella mientras empuñaban sus hachas de obsidiana. Tenía que hacer algo\
-	antes de que esa visión se materializase y fuese alcanzada por esas afiladas hachas de\
-	piedra. Tenía un plan para el cual tendría que dar un empujón quemando <a href='acero_situacion3'>acero</a>.</p>"
+		"<p>Al comenzar a quemar Atium surgieron dos sombras idénticas a esos dos inquisidores.\
+		Se dirigían hacia ella mientras empuñaban sus hachas de obsidiana. Tenía que hacer algo\
+		antes de que esa visión se materializase y fuese alcanzada por esas afiladas hachas de\
+		piedra. Tenía un plan para el cual tendría que dar un empujón quemando <a href='acero_situacion3'>acero</a>.</p>"
 	),
 	acero_situacion3: new undum.SimpleSituation(
-	"<p>Antes de dirigirse hacia el palacio del Lord Legislador se le ocurrió una idea,\
-	cogió unas puntas de flecha de piedra y les colocó un aro de metal alrededor de sus astiles.\
-	De debajo de la capa sacó dos puñados de puntas de flecha, avivó acero y dio un fuerte\
-	empujón dirigiendo los proyectiles hacia los inquisidores. Estos intentaron protegerse,\
-	empujando las puntas de flecha en dirección contraria. Al hacer esto los anillos de metal\
-	se desprendieron de las puntas de flecha, sin embargo las puntas de piedra siguieron su\
-	trayectoria inicial. Los dos se quedaron sorprendidos mientras eran atravesados de punta\
-	a punta por las puntas de flecha. Uno cayó al suelo, el otro aguantó a duras penas en pie.\
-	Aprovechando que apenas podían moverse por sus heridas, Vin corrió y entró en aquel edificio.</p>\
-	\
-	<p class='transient'><a href='edificio'>Continuar</a></p>"
+		"<p>Antes de dirigirse hacia el palacio del Lord Legislador se le ocurrió una idea,\
+		cogió unas puntas de flecha de piedra y les colocó un aro de metal alrededor de sus astiles.\
+		De debajo de la capa sacó dos puñados de puntas de flecha, avivó acero y dio un fuerte\
+		empujón dirigiendo los proyectiles hacia los inquisidores. Estos intentaron protegerse,\
+		empujando las puntas de flecha en dirección contraria. Al hacer esto los anillos de metal\
+		se desprendieron de las puntas de flecha, sin embargo las puntas de piedra siguieron su\
+		trayectoria inicial. Los dos se quedaron sorprendidos mientras eran atravesados de punta\
+		a punta por las puntas de flecha. Uno cayó al suelo, el otro aguantó a duras penas en pie.\
+		Aprovechando que apenas podían moverse por sus heridas, Vin corrió y entró en aquel edificio.</p>\
+		\
+		<p class='transient'><a href='edificio'>Continuar</a></p>"
 	),
 	polvo_situacion3: new undum.SimpleSituation(
-	"<p>Cogió un puñado de polvo de peltre y se lo lanzó a los inquisidores. De repente, una\
-	nube densa de color azul apareció ante las caras de los inquisidores impidiendoles ver.\
-	Vin enseguida supo que su idea había funcionado al ver cómo aquellos dos habían reaccionado.\
-	Después corrió hacia la puerta del edificio interior pasando entre los dos inquisidores.</p>\
-	\
-	<p class='transient'><a href='edificio'>Continuar</a></p>"
+		"<p>Cogió un puñado de polvo de peltre y se lo lanzó a los inquisidores. De repente, una\
+		nube densa de color azul apareció ante las caras de los inquisidores impidiendoles ver.\
+		Vin enseguida supo que su idea había funcionado al ver cómo aquellos dos habían reaccionado.\
+		Después corrió hacia la puerta del edificio interior pasando entre los dos inquisidores.</p>\
+		\
+		<p class='transient'><a href='edificio'>Continuar</a></p>"
 	),
 	edificio: new undum.SimpleSituation(
-	"<h1>Edificio Interior</h1>\
-	<p>Continuará...</p>"
+		"<h1>Edificio Interior</h1>\
+		<img src='media/img/edificio_interior.jpg' class='float_right'>\
+		<p>	Esperaba que los inquisidores tardaran en recuperarse el tiempo suficiente así ella podría\
+		echar un vistazo al interior de ese edificio y con un poco de suerte encontrar algo que le pudiera\
+		ser de ayuda contra el Lord Legislador.</p>\
+		\
+		<p>Vin comenzó a buscar desesperada. Aquella cámara solo tenía una salida, la entrada que custodiaban\
+		los inquisidores. La habitación tenía las paredes decoradas con tapices, colgaban pieles teñidas de\
+		varios colores. También había cuadros muy antiguos con lienzos amarillentos. Una chimenea ardía en el\
+		centro de la habitación. Vin no vio nada extraño ni nada que le pudiera ser útil. Aquel sitio que\
+		parecía una especie de estudio o despacho decorado con extraños objetos y adornos, como los cuernos\
+		de alguna bestia o unos zapatos con una suela muy ancha.</p>\
+		\
+		<p>Dio un respingo al ver que algo se movía en el centro de la habitación. Junto a la chimenea había\
+		un sillón que comenzó a girar revelando a un anciano arrugado y calvo que vestía ropa muy cara. Justo\
+		cuando iba a intentar salir de aquella habitación unas manos la agarraron de los hombros. Intentó\ zafarse del inquisidor\
+		pero era demasiado fuerte.</p>\
+		\
+		<p>- ¿Qué está pasando? - dijo el anciano mientras se ponía en pie.</p>\
+		\
+		<p>- Mis disculpas Lord Legislador - dijo el inquisidor.</br>\
+		No puede ser, no se parece en nada al joven Lord Legislador contra el que se enfrentó Kelsier esta tarde.</p>\
+		\
+		<p>- Matadla - ordenó el Lord Legislador.</p>\
+		\
+		<p>- Mi señor hemos visto a esta muchacha con el skaa que mató esta tarde. Sabemos que hay alguien detrás\
+		de esta rebelión skaa y de la guerra entre la nobleza, creemos que esta chica puede estar\
+		implicada.- respondió el inquisidor con una voz chirriante.</p>\
+		\
+		<p>- Entonces averiguad todo lo que podáis y después deshazte de ella. - dijo el Lord Legislador casi sin fuerzas.</p>\
+		\
+		<p class='transient'>Tenía que conseguir escapar, quizás quemando <a href='peltre_situacion4'>peltre</a> podría soltarse</p>"
+	),
+	peltre_situacion4: new undum.SimpleSituation(
+		"<p class='once'>Vin seguía retorciéndose mientras avivaba peltre. Aún así el inquisidor la seguía sujetando y ni se inmutaba ante las\
+		patadas que Vin le propinaba. En ese momento se acordó: el <a href='undecimo_situacion4'>Undécimo metal</a>. Aún no lo había usado y no sabía qué efecto iba\
+		a producir pero según Kelsier con ese metal podría enfrentarse al Lord Legislador.</p>"
+	),
+	undecimo_situacion4: new undum.SimpleSituation(
+		"<p>Alzó la cabeza para mirar al anciano. Quemó el metal pero no sucedió nada. El corazón le latía tan fuerte\
+		que parecía que le iba a estallar. En ese momento vio algo. Al lado del Lord Legislador había otro hombre.\
+		Estaba segura que ese hombre no estaba ahí hace un momento. Ni siquiera lo había visto entrar.</p>\
+		\
+		<p>Tenía barba y vestía un atuendo de lana con una capa de piel de colores poco llamativos pero bien cortada.\
+		Le resultaba familiar. Sus rasgos eran similares a los del hombre que había matado a Kelsier pero parecía mayor.\
+		Permanecía de pie y parecía contento.</p>\
+		\
+		<p>Vin giró la cabeza y vio a otro hombre a su lado, un joven noble. Por su ropa diría que era un mercader y muy rico.\
+		No entendía nada de lo que estaba sucediendo, entonces el metal se agotó.</p>\
+		<p>El inquisidor la lanzó al suelo y mientras intentaba levantarse sintió un fuerte golpe. Después todo se volvió negro.</p>\
+		\
+		<p class='transient'><a href='celda'>Continuar</a></p>"
+	),
+	celda: new undum.SimpleSituation(
+		"<h1>Celda</h1>\
+		<img src='media/img/celda.jpg' class='float_right'>\
+		<p>El inquisidor le arrojó una cuba de agua. Vin se despertó, aún le dolía la cabeza por el golpe. Mientras seguía\
+		aturdida el inquisidor la alzó y le metió algo en la boca.</p>\
+		\
+		<p>- Trágatelo - ordenó mientras le retorcía el brazo.</br>\
+		Trató de resistirse pero el dolor era demasiado intenso. Al final cedió y se tragó el trocito de metal.</p>\
+		\
+		<p class='once'>Bien, ahora quémalo. - le ordenó el inquisidor.</br>\
+		Vin notó una nueva reserva de metal en su interior. Nunca antes había utilizado ese metal por lo que trató\
+		de resistirse. No sabía qué metal era, si no era un metal alomántico podría hacerla enfermar o incluso matarla.\
+		Tenía que <a href='negarse_situacion5'>resistirse</a>.</p>"
+	),
+	negarse_situacion5: new undum.SimpleSituation(
+		"<p class='once'>Vin negó con la cabeza. El inquisidor respondió retorciéndole el brazo con más fuerza, hasta el punto que\
+		Vin pensó que se lo iba a arrancar. Finalmente, Vin no pudo resistir el dolor y <a href='aluminio_situacion5'>quemó el extraño metal</a>.</p>"
+	),
+	aluminio_situacion5: new undum.SimpleSituation(
+		"<p>De repente, dejó de notar sus reservas de metal. El inquisidor la arrojó al suelo, dio media vuelta y salió de la celda.\
+		Vin se incorporó mientras se tocaba el brazo. Intentó encontrar alguna reserva de metal en su interior pero ni siquiera sentía\
+		el metal que le había hecho tragar el inquisidor. No entendía nada, Kelsier nunca le habló de ese metal.</p>\
+		\
+		<p class='transient'><a href='mazmorras'>Continuar</a></p>"
+	),
+	mazmorras: new undum.SimpleSituation(
+		"<h1>Mazmorras de Kredik Shaw</h1>\
+		<img src='media/img/mazmorras.jpg' class='float_right'>\
+		<p>Notaba una sensación extraña en aquel lugar. Era la misma sensación que sintió aquella tarde cuando el Lord Legislador\
+		apareció en la plaza. Eso significaba que el Lord Legislador estaba cerca, por lo que tendría que estar encerrada en algún\
+		lugar del palacio. No podía quemar cobre para protegerse de esa sensación de depresión que se retorcía en su interior.</p>\
+		\
+		<p>No sabía cuándo volvería el inquisidor así que comenzó a inspeccionar la celda. Tres de las cuatro paredes de la celda\
+		eran barrotes y no tenía ni un solo mueble. Había otras dos celdas, una a cada lado. Trató de forcejear la puerta pero obviamente\
+		el inquisidor la había cerrado con llave. Aparentemente no había nada a su alrededor que pudiera usar para escapar de allí.</p>\
+		\
+		<p class='once'>La habían dejado en ropa interior para asegurarse de que no llevaba metales escondidos. Se sentó en el suelo de piedra, encogida\
+		de frío por la ropa húmeda. Cuando casi se dio por vencida vio en el exterior de la jaula la cuba con la que el inquisidor le\
+		arrojó agua. Se fijó en el asa que parecía ser un <a href='alambre_situacion6'>alambre</a> de metal, con el que quizás podría forzar la cerradura y escapar.</p>"
+	),
+	alambre_situacion6: new undum.SimpleSituation(
+		"<p>Sacó un brazo de entre los barrotes, lo estiró todo lo que pudo para conseguir alcanzar la cuba. Finalmente, cuando el hombro\
+		parecía que se le iba a dislocar, alcanzó con los dedos el borde de la cuba. Quitarle el asa le llevó más rato de lo que pensaba, seguro\
+		que el peltre le habría facilitado el proceso. Sin perder más tiempo Vin comenzó a forzar la cerradura. Todavía recordaba algunos trucos\
+		de su vida como ladrona, así que no le resultó muy difícil abrirla.</p>\
+		\
+		<p class='transient'><a href='sala'>Continuar</a></p>"
+	),
+	sala: new undum.SimpleSituation(
+		"<h1>Sala de Tortura</h1>\
+		<img src='media/img/sala_tortura.jpg' class='float_right'>\
+		<p>Vin salió de la jaula y atravesó un pasillo hasta llegar a una puerta. Abrió un poco la puerta para ver qué había al otro lado.\
+		Era una habitación grande pero estaba vacía así que Vin entró en ella. Se sorprendió al ver que en el centro de la habitación había una\
+		mesa grande con restos de sangre seca. Justo al lado de la mesa había otra más pequeña, estaba repleta de instrumentos afilados\
+		colocados en fila.</p>\
+		\
+		<p>En ese momento comprendió que se encontraba en la sala de tortura. Si no se daba prisa, aquella habitación sería lo último que vería.\
+		Había dos salidas, a la izquierda estaba el pasillo por el que había llegado, a la derecha había otro pasillo tan extenso que no podía\
+		ver el final.</p>\
+		\
+		<p class='once'>Tenía que salir de ahí cuanto antes, no podía arriesgarse a que la pillasen los inquisidores ahora que estaba totalmente indefensa.\
+		Estaba segura de que si intentaba escapar del palacio se encontraría con algún guardia, o peor aún, con un inquisidor. Si pudiese <a href='buscar_situacion7'>encontrar</a>\
+		sus pertenencias todavía podría buscar al Lord Legislador, sin embargo, el inquisidor volvería en cualquier momento para interrogarla.\
+		Quizás la mejor opción era llevarse uno de esos <a href='instrumento_situacion7'>instrumentos de tortura afilados</a>, aunque no le sería de mucha ayuda si tenía que enfrentarse\
+		a un inquisidor, era mejor que nada.</p>"
+	),
+	instrumento_situacion7: new undum.SimpleSituation(
+		"<p>Se acercó a la mesa con los instrumentos, se fijó en una especie de cuchillo que parecía muy afilado y sin pensarselo mucho\
+		lo cogió. Salió de la habitación por el pasillo de la derecha, aún llevando el cuchillo no se sentía muy segura. Se había\
+		acostumbrado demasiado a usar metales y ahora que no podía hacerlo se sentía inútil. Incluso usando la alomancia enfrentarse\
+		a un inquisidor era una locura pero si se encontraba con un grupo de guardias al menos podría hacerles frente quemando peltre.</p>\
+		\
+		<p>Por suerte la mayoría de los guardias habían acudido a la entrada principal de palacio para impedir el paso a los skaa.\
+		Vin pudo escapar de Kredik Shaw sin tener que pelear, sin embargo ya era demasiado. En cuanto el Lord Legislador diera la\
+		orden los skaa que estaban a las puertas del palacio serían masacrados.</p>"
+	),
+	buscar_situacion7: new undum.SimpleSituation(
+		"<p>En un rincón de la habitación había un arcón. Vin se fijó en un trozo de tela oscura que asomaba del arcón. Rápidamente\
+		se acercó y abrió el arcón. Dentro encontró su ropa (sus pantalones y su camisa) y al fondo estaba su capa. Buscó un bolsillo\
+		oculto que tenía en su capa e introdujo la mano. Con los dedos lo tocó, un frasquito de cristal con el tapón aún puesto. Vin\
+		siempre llevaba un frasco oculto con metales por si se quedaba sin reservas, por suerte, el inquisidor no lo encontró.</p>\
+		\
+		<p>Ingirió todo el contenido del frasquito, inmediatamente notó cómo aparecían sus reservas de metal en su interior. Sus dagas\
+		de cristal también se encontraban ahí. Tan pronto hubo terminado de vestirse, salió corriendo por el pasillo de la derecha.</p>\
+		\
+		<p class='transient'><a href='biblioteca'>Continuar</a></p>"
+	),
+	biblioteca: new undum.SimpleSituation(
+		"<h1>Biblioteca</h1>\
+		<img src='media/img/biblioteca.jpg' class='float_right'>\
+		<p>Continuó avanzando por un entramado de pasillos interminables. De repente escuchó unos pasos acercarse. A su izquierda\
+		había una puerta, sin pensarlo dos veces intentó abrirla. Por suerte no estaba cerrada con llave, pasó al interior de la\
+		habitación volviendo a cerrar la puerta.</p>\
+		\
+		<p>Echó un vistazo rápido a la habitación por si había alguien más en ella. Aparentemente se encontraba vacía.\
+		La habitación estaba repleta de estanterías llenas de libros. En su vida a penas había visto un par de libros ya que\
+		estaban prohibidos. Aquel lugar tenía que ser la biblioteca personal del Lord Legislador.</p>\
+		\
+		<p>En un lado de la habitación Vin vio algo que llamó su atención, un atril. En él estaba colocado un libro\
+		de aspecto muy viejo. Parecía que solo con mirarlo se iba a romper. Aún así algo había algo en el libro que le hacía\
+		sentir la imperiosa necesidad de leerlo. Se acercó un poco más al atril, abrió el libro y comenzó a leer:</p>\
+		\
+		<p class='transient'><a href='patio'>Continuar</a></p>"
+	),
+	patio: new undum.SimpleSituation(
+		"<h1>Patio del Palacio</h1>\
+		<img src='media/img/patio.jpg' class='float_right'>\
+		<p>Después de haber pasado por varias salas y pasillos Vin consiguió salir al exterior. Desde que se escondió en la biblioteca\
+		no volvió a ver a nadie. El Lord Legislador habría enviado a la mayoría de los guardias a proteger las puertas del palacio.\
+		El inquisidor que la iba a torturar ya sabría que se había escapado. Seguro que estaría buscándola por los laberínticos pasillos\
+		de las mazmorras.</p>\
+		\
+		<p>Aún era de noche pero se podía ver en el horizonte un leve clarear, no faltaba mucho para el amanecer. Afuera la presión que\
+		ejercía el Lord Legislador se podía sentir con mayor fuerza, una sensación que la aplacaba y le hacía sentir que no tenía ninguna\
+		oportunidad de vencerle. Miró hacia arriba, buscando el origen de esos pulsos. Las numerosas torres se alzaban como miles de agujas\
+		rectas y negras.</p>\
+		\
+		<p class='once'>Tenía que usar <a href='hierro_situacion9'>hierro</a> para buscar algún anclaje en un punto alto al que poder sujetarse, de esa\
+		manera tendría una visión másamplia del palacio.</p>"
+	),
+	hierro_situacion9: new undum.SimpleSituation(
+		"<p>Avivó hierro. Casi al instante unas cuantas líneas azules aparecieron ante sus ojos, apuntando hacia su pecho. Alzó la vista para ver hasta\
+		donde llegaban, entonces, se fijó en una que apuntaba hacia la punta de una torre cercana. Tiró de esa línea con fuerza, lanzándose hasta la aguja\
+		metálica de la torre.</p>\
+		\
+		<p>Desde arriba podía ver todos los pabellones y torres de Kredik Shaw. A lo lejos, a las afueras del palacio, se distinguía la\
+		luz amarillenta de las antorchas de los skaa. Tenía que darse prisa, si los skaa entraban en el palacio el Lord Legislador los\
+		masacraría a todos.</p>\
+		\
+		<p class='once'>Aunque desde su posición tenía una mejor visión que desde abajo, la oscuridad de la noche le dificultaba un poco el trabajo.\
+		No tenía tiempo para esperar a que amaneciese, tenía que quemar <a href='estanio_situacion9'>estaño</a>.</p>"
+	),
+	estanio_situacion9: new undum.SimpleSituation(
+		"<p>Todo se su entorno se volvió más claro en cuanto comenzó a quemar estaño. No solo su visión se volvió más aguda, sintió con\
+		mayor fuerza el frío de la aguja húmeda a la que estaba sujeta. Miró a su alrededor, entonces lo vio. En una torre, más al centro\
+		del palacio, distinguió una luz que atravesaba unas vidrieras tintadas.</p>\
+		\
+		<p>Vin se lanzó al vacío, agarrándose a distintos anclajes hasta llegar a la torre más cercana a aquella de las vidrieras iluminadas.\
+		Tenía que estar en esa torre, podía sentir la presencia de él en el interior.</p>\
+		\
+		<p class='transient'><a href='torre'>Continuar</a></p>"
+	),
+	torre: new undum.SimpleSituation(
+		"<h1>Torre del Trono</h1>\
+		<img src='media/img/trono.jpg' class='float_right'>\
+		<p class='once'>Si se impulsaba lo suficientemente fuerte podría entrar en la torre atravesando las vidrieras. Avivando <a href='hierro_situacion10'>hierro</a> vería cualquier anclaje\
+		dentro de la habitación en la que se encontraba el Lord Legislador.</p>"
+	),
+	hierro_situacion10: new undum.SimpleSituation(
+		"<p>Volvió a quemar hierro, las líneas azules surgieron una vez más. Unas cuantas señalaban hacia el interior de la sala iluminada\
+		atravesando las vidrieras. Se sujetó rodeando con los brazos la aguja de la torre sobre la que estaba, tiró con fuerza de una de esas\
+		líneas azules para asegurarse de que el objeto del que tiraba estaba bien sujeto. Soltó la aguja y tiró con toda su fuerza. Salió\
+		despedida por los aires en dirección hacia la habitación donde estaba el Lord Legislador.</p>\
+		\
+		<p class='once'>Las vidrieras estallaron en cientos de pequeños cristales de colores cuando Vin impactó contra ellas. Vin aterrizó sobre el suelo\
+		lleno de trocitos de cristal, permaneciendo agazapada durante un momento. El Lord Legislador se encontraba en su trono impasible mientras\
+		la observaba. No había nadie más en la sala, ni siquiera se sentían los pasos de los guardias dirigirse hacia allí. Era el momento perfecto\
+		para <a href='dagas_situacion10'>atacar</a>.</p>"
+	),
+	dagas_situacion10: new undum.SimpleSituation(
+		"<p>Vin sacó sus dagas y se abalanzó sobre el Lord Legislador. Como si fuera un muñeco de trapo la chica voló por los aires, acabando\
+		estampada contra una columna.</p>\
+		\
+		<p>- Niña estúpida, ¿qué creías que iba a pasar? - dijo molesto el Lord Legislador. - Al final tendré que matarte yo mismo.</br>\
+		¿Qué había ocurrido? No llegó siquiera a tocarla, además no llevaba ningún metal encima del que se pudiera empujar. El único metal\
+		que tenía se encontraba en su interior pero no se podía tirar ni empujar del metal que llevase una persona en su cuerpo.</p>\
+		\
+		<p>Aturdida por el fuerte golpe intentó levantarse. En ese momento el Lord Legislador volvió a empujar, alzando a Vin en el\
+		aire mientras era aplastada contra la columna. Le ardía el estómago, parecía como si una mano le estuviera destrozando las entrañas.\
+		No era posible, <i>¿de verdad tenía tanto poder que podía empujar contra los metales de su estómago?</i></p>\
+		\
+		<p class='once'>Tenía que pensar algo rápido antes de que muriera aplastada. Peltre, si quemaba <a href='peltre_situacion10'>peltre</a> su cuerpo se fortalecería y podría resistir\
+		el dolor. Eso le daría un poco más de tiempo.</p>"
+	),
+	peltre_situacion10: new undum.SimpleSituation(
+		"<p>Tan pronto como avivó peltre el dolor comenzó a disminuir. Ya no sentía que sus huesos se iban a romper con la facilidad con\
+		la que se parte una rama seca al pisarla. No sabía cuánto más iba a aguantar, ¿qué podía hacer si no se podía mover? ¿De verdad\
+		creía que iba a ganarle si ni Kelsier pudo? El Undécimo metal había resultado ser inútil. Una idea surgió en su mente, el metal\
+		que le había obligado a quemar el inquisidor antes le era totalmente desconocido.</p>\
+		<p><i>Si Kelsier nunco llegó a mencionarlo, ¿significaba\
+		eso que el Undécimo metal no era realmente el “undécimo”?</i></p>\
+		\
+		<p>Sabía que los metales se iban en parejas: un metal básico, luego su aleación, cada uno haciendo cosas opuestas. El hierro tiraba,\
+		el acero empujaba; el zinc tiraba, el latón empujaba; etc. Todos los metales excepto… el oro y el atium. Kelsier le había dicho que\
+		era el metal más inútil de todo y que no le aconsejaba usarlo nunca. Sin embargo Vin lo ignoró, cogió oro y lo quemó. Aquel metal le\
+		mostró una imagen de ella misma, se pudo ver a sí misma como si existieran dos Vin. Era una visión demasiado real, tan real que pudo\
+		tocarla.</p>\
+		\
+		<p>Kelsier le dijo que ese metal mostraba a la persona que lo quemaba una versión de lo que podría haber sido si el pasado hubiera\
+		sido distinto. El Undécimo metal había hecho algo parecido, en vez de mostrar el pasado de Vin le había mostrado a otras personas.\
+		Algo se le escapaba.</p>\
+		\
+		<p class='once'><i>¿Podría ser que el Undécimo metal fuese una aleación de atium o de oro? Entonces si el oro y el aitum hacen cosas similares pero\
+		diferentes, son como… Son como los demás metales que se agrupan de cuatro en cuatro. Están los físicos (hierro, acero, estaño, peltre),\
+		los mentales (zinc, latón, cobre, bronce) y los que influyen sobre el tiempo (oro y su aleación, atium y su aleación). El <a href='undecimo_situacion10'>Undécimo metal</a>\
+		tenía que ser la pareja opuesta del oro.</i></p>"
+	),
+	undecimo_situacion10: new undum.SimpleSituation(
+		"<p class='once'>Quemó el Undécimo metal, y como la vez anterior, el yo-pasado del Lord Legislador volvió a aparecer. Ahora tenía que <a href='hierro2_situacion10'>buscar</a> dónde agarrarse</p>"
+	),
+	hierro2_situacion10: new undum.SimpleSituation(
+		"<p class='once'>Dio un tirón avivando hierro del soporte de una linterna que estaba a su derecha, saltando en esa dirección. Vin jadeó, libre del\
+		empujón de acero. Se le había ocurrido una <a href='dagas2_situacion10'>idea</a>.</p>"
+	),
+	dagas2_situacion10: new undum.SimpleSituation(
+		"<p>Una vez más lanzó un ataque con sus dagas, pero esta vez contra el otro Lord Legislador. Asestó dos golpes que acertaron de\
+		lleno en el pecho de la imagen. pero Vin la atravesó como si hubiera golpeado al aire. Pensaba que si pudo tocar su imagen de oro,\
+		también podría hacerlo con la imagen del Lord Legislador. Sin embargo se equivocaba.</p>\
+		\
+		<p>Vin dejó de quemar el Undécimo metal. El Lord Legislador se volvió hacia Vin, acercándose lentamente. Cuando estaba a un palmo de\
+		distancia de ella Vin le clavó una daga en el costado, la otra en el pecho. El Lord Legislador no profirió ningún sonido, ni siquiera\
+		una mueca de dolor. Se arrancó las dagas, las lanzó con fuerza hacia el suelo y estas se hicieron añicos.</p>\
+		\
+		<p><i>No puede ser</i>, pensó Vin mientras retrocedía asustada. <i>Ni los brumosos brazos de peltre podrían resistir con esas heridas.</i></p>\
+		\
+		<p class='once'>Las lágrimas comenzaron a caerle por las mejillas. No sabía qué hacer. Aún sentía una pequeña reserva del <a href='undecimo2_situacion10'>Undécimo metal</a> en su interior.</p>"
+	),
+	undecimo2_situacion10: new undum.SimpleSituation(
+		"<p>En un último intento, totalmente desesperada, volvió a avivar el Undécimo metal. Ese metal tenía que hacer algo más. La imagen de un\
+		hombre apareció al lado del Lord Legislador. Un hombre con capa de piel y gruesas botas, musculoso y con barba. No parecía un aristócrata\
+		ni un tirano. No un héroe, ni siquiera un guerrero. Parecía un hombre vestido para vivir en las frías montañas, un pastor. O, tal vez, ...</p>\
+		\
+		<p class='transient'><a href='libro_situacion10'>Libro</a></p>"
+	),
+	libro_situacion10: new undum.SimpleSituation(
+		"<p><i>Un porteador</i>, pensó Vin. En ese momento recordó el viejo diario que había encontrado antes. Sus palabras inundaron la mente de Vin.</p>\
+		</br>\
+		<p><i>Parece que Rashek representa a una facción creciente en la cultura de Terris.\
+		Gran número de jóvenes piensa que sus inusitados poderes deberían ser usados para algo más que trabajar en el campo, engendrar hijos y tallar piedras.\
+		Son rudos, incluso violentos, muy distintos a los tranquilos y razonables filósofos y hombres santos de Terris que he conocido.\
+		Tendrán que ser vigilados con cuidado, estos terrisanos. Podrían ser muy peligrosos, si se les da ocasión y motivo.</i></p>\
+		</br>\
+		<p><i>Sé que no debería dejar que un simple porteador me perturbe. Sin embargo, es de Terris, donde se originaron las profecías.\
+		Si alguien pudiera identificar un fraude, ¿no sería él?\
+		Sin embargo, continúo mi viaje, acudiendo a los lugares donde los augurios escritos proclaman que me encontraré con mi destino... a pie,\
+		sintiendo los ojos de Rashek en mi espalda.\
+		Celosos. Burlones. Llenos de odio.</i></p>\
+		</br>\
+		<p><i>Creo que he descubierto por fin por qué me odia tanto Rashek. No cree que un extraño como yo, un forastero, pueda ser el Héroe de las Eras.\
+		Cree que de algún modo he engañado a los filósofos, que llevo injustamente las marcas del Héroe.\
+		Según Rashek, solo un terrisano de pura sangre debería haber sido elegido como el Héroe. Curiosamente, me siento más decidido a causa de su odio.\
+		Debo demostrarle que puedo realizar esta tarea.</i></p>\
+		</br>\
+		<p><i>La mayoría de los terrisanos no son tan malos como Rashek. Sin embargo, puedo ver que creen en él, hasta cierto punto.\
+		Son hombres sencillos, no filósofos ni eruditos, y no comprenden que sus propias profecías dicen que el Héroe de las Eras será un extranjero.\
+		Sólo ven lo que señala Rashek: que son un pueblo ostensiblemente superior y deberían dominar en vez de estar sometidos.</i></p>\
+		</br>\
+		<p>- Rashek - susurró Vin.\
+		El hombre se quedó inmóvil.</p>\
+		\
+		<p>- Eres Rashek - dijo Vin - Tú no escribiste el diario de viajes. No eres el Héroe de las Eras, eres su criado. Eras su porteador,\
+		lo odiabas y tú lo mataste.</p>\
+		\
+		<p>El Lord Legislador la miraba fijamente con una expresión de enfado.</p>\
+		\
+		<p>- Por eso el diario no cuenta qué pasó después de la Ascensión. Lo asesinaste la noche de antes, y ocupaste su lugar.</p>\
+		\
+		<p>Chiquilla insolente, ¡no sabes nada! - gritó el Lord Legislador.</p>\
+		\
+		<p>Alzó una mano y empujó los metales del estómago de Vin contra el suelo. Su pulso alomántico era tan fuerte que los fragmentos\
+		de cristal que había por toda la sala se alejaron formando un círculo alrededor de ellos dos. Vin estaba siendo aplastada contra\
+		el suelo, apenas podía respirar.</p>\
+		\
+		<p><i>¿De qué me sirve conocer la verdad si voy a morir igual? ¿De qué me sirve saber que el Lord Legislador es en realidad era\
+		un porteador, un criado, un terrisano?</i></p>\
+		\
+		<p><i>Un ferruquimista.</i></p>\
+		\
+		<p>La gran mayoría de los terrisanos eran ferruquimista, personas que al igual que los alománticos podían usar metales para\
+		obtener poderes. Sin embargo, la ferruquimia funcionaba de otro modo. Los ferruquimistas usan metales que están en contacto\
+		con su cuerpo para almacenar sus propias capacidades físicas, para después usar esas reservas cuando sea necesario.</p>\
+		\
+		<p class='once'>Vin se fijó en él, llevaba numerosos anillos y brazaletes metálicos. Tenía que intentar <a href='hierro3_situacion10'>arrebatárselos</a>.</p>"
+	),
+	hierro3_situacion10: new undum.SimpleSituation(
+		"<p>Con todas sus fuerzas tiró de sus adornos de metal. Los anillos y brazaletes salieron disparados hacia Vin. El Lord Legislador\
+		dejó de empujar, se tambaleó y se cayó al suelo. Vin se puso en pie, respirando aliviada. Se acercó a él, observando cómo su piel\
+		se arrugaba aún más y su espalda se encorvaba. Lo escuchó respirar con dificultad, hasta que de repente dejó de hacerlo.</p>\
+		\
+		<p><i>Ahora lo entiendo. No solo era un ferruquimista, también era un nacido de la bruma. Eso explicaba por qué el día anterior\
+		en la plaza parecía ser un hombre joven</i>, pensó Vin mientras miraba el cuerpo sin vida del Lord Legislador</p>\
+		\
+		<p><i>Si podía almacenar su “juventud” en metales y luego los injería quizás podría quemarlos. De algún modo de esta manera multiplicaba\
+		sus efectos y así era como conseguía parecer inmortal.</i></p>\
+		</br>\
+		<p>Vin respiró aliviada aunque no podía quitarse esa sensación, la sensación de que solo había tenido suerte. Había acudido ella sola a\
+		enfrentarse al Lord Legislador con un plan que se basaba en encontrar algo que Kelsier creía que estaba oculto en el palacio y que contenía\
+		el secreto para vencerlo, y usar un metal que nunca antes había usado. Pero al final lo consiguió, había vencido al Lord Legislador y con su\
+		muerte aquel día había salvado a miles de skaa en Luthadel. No solo eso, había acabado con el Imperio Final.</p>"
 	),
 };
 
