@@ -1,4 +1,4 @@
-**DESCRIPCIÓN DEL JUEGO**
+# DESCRIPCIÓN DEL JUEGO
 ### El Imperio Final
 
 En el lejano mundo de *Scadrial*, mil años atrás, el *Héroe de las Eras* que auguraban las profecías ascendió a la divinidad en el *Pozo de la Ascensión* para poner fin al terrible mal que acechaba a la humanidad conocida como la *Profundidad*. Aunque la *Profundidad* fue derrotada, el *Héroe* adoptó el título de *Lord Legislador*, unificó todo el mundo e instauró el *Imperio Final*. Para mantener controlada a toda la humanidad estableció el *Ministerio de Acero*, creó a los *Inquisidores* de acero como sus ejecutores, a los *Kandra* como sus espías y a los *Koloss* como sus violentos soldados.
@@ -25,27 +25,28 @@ Un *nacido de la bruma* es una persona que tiene la habilidad de quemar metales 
 - **Undécimo Metal:** este metal fue descubierto por Kelsier. Aunque no llegó a encontrarle ninguna utilidad, difundió rumores sobre este metal y su poder para acabar con el Lord Legislador entre los skaa y la nobleza.
 
 
-### PRODUCT BACKLOG
+# Sprint 1
+### 1.PRODUCT BACKLOG
 ![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/product_backlog.PNG)
 
-### SPRINT BACKLOG
+### 2.SPRINT BACKLOG
 ![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint1_inicio.PNG)
 Hemos decidido implementar esas historias de usuario porque consideramos que son los puntos básicos que se deben desarrollar primero
 para tener un juego funcional (cambiar de situación, guardar la partida, borrar la partida, etc).
 
-### PRODUCT BACKLOG REFINEMENT
+### 3.PRODUCT BACKLOG REFINEMENT
 ![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement_inicio.PNG)
 
-### SPRINT BACKLOG (después del PRODUCT BACKLOG REFINEMENT)
+### 4.SPRINT BACKLOG (después del PRODUCT BACKLOG REFINEMENT)
 ![Captura Sprint Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint_refinement.PNG) 
 
-### PRODUCT BACKLOG (final del sprint)
+### 5.PRODUCT BACKLOG (final del sprint)
 ![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement.PNG)
 
-### SPRINT BACKLOG (final del srpint)
+### 6.SPRINT BACKLOG (final del srpint)
 ![Captura Sprint Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint1_final.PNG)
 
-### SPRINT REVIEW
+### 7.SPRINT REVIEW
   Todas las tareas de las historias de usuario que se añadieron al Sprint Backlog (historias 2,4,5,11,12) se han completado. 
 Viendo que el desarrollo avanzaba sin problemas e íbamos a tener tiempo, decidimos incluir el nuevo requisito en nuestro
 Sprint Backlog. El nuevo requisito se descompuso en tareas y se les asignó a cada miembro del equipo. Al final del sprint
@@ -63,7 +64,7 @@ las tareas del nuevo requisito también han sido completadas.
 Para el siguiente sprint los requisitos que se implementarán son aquellos que tienen un valor demasiado alto o son innegociables. Con esto pretendemos dejar listo cuanto antes estos requisitos por si en el futuro apareciesen nuevos requisitos que nos dificultasen
 el poder implementar estos requisitos.
  
-### SPRINT RETROSPECTIVE
+### 8.SPRINT RETROSPECTIVE
 Haciendo una valoración de este sprint podemos decir que lo mejor que ha funcionado ha sido planificar la implementación de requisitos
 según su dificultad e importancia. En cuanto a cosas que tenemos que mejorar está la flexibilidad para incluir imprevistos en nuestra
 planificación. 
@@ -72,8 +73,57 @@ planificación.
  y se podrán completar todas en los plazos previstos. 
  Así como una inspección más detallada de los plazos, las herramientas que estamos utilizando para las reuniones (en su caso WhatsApp debido a la situación, trabajmos de manera remota en su defecto).
  
-### URL PRODUCT BACKLOG
-https://trello.com/b/LbWNg5BI
+### 9.URLs
+  - https://trello.com/b/LbWNg5BI (Product Backlog)
+  - https://trello.com/b/hcqBWF40 (Sprint Backlog)
+  
+  
+# Sprint 2
+### 1.PRODUCT BACKLOG
+![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_srpint2_inicio.PNG)
 
-### URL SPRINT BACKLOG (sprint 1)
-https://trello.com/b/hcqBWF40
+### 2.PRODUCT BACKLOG REFINEMENT
+![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement_sprint2.PNG)
+
+### 3.PRODUCT BACKLOG (fin Sprint)
+![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_sprint2_final.PNG)
+
+### 4.SPRINT BACKLOG
+![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint2_inicio.PNG)
+Para este sprint hemos implementado todas las historias de usuario con un valor innegociable. También hemos implementado otras
+historias con un valor medio/bajo. De este modo para el último sprint solo nos quedan por implementar las historias de usuario 
+con valores bajos. Así si tenemos problemas y quedan algunas sin implementar serían aquellas menos relevantes.
+
+### 5.SPRINT BACKLOG (fin Sprint)
+![Captura Sprint Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint2_final.PNG)
+
+### 6.SPRINT REVIEW
+  Todas las tareas de las historias de usuario que se añadieron al Sprint Backlog (historias 2,4,5,11,12) se han completado. 
+Viendo que el desarrollo avanzaba sin problemas e íbamos a tener tiempo, decidimos incluir el nuevo requisito en nuestro
+Sprint Backlog. El nuevo requisito se descompuso en tareas y se les asignó a cada miembro del equipo. Al final del sprint
+las tareas del nuevo requisito también han sido completadas.
+  A lo largo del primer sprint no surgieron demasiados problemas, o al menos no demasiado importantes, con las historias de 
+ usuario que íbamos a implementar al principio. Los problemas surgieron al intentar implementar el nuevo requisito ya que teníamos
+ muchas ideas en mente para realizar el diseño de nuestro juego.
+ - **Problemas**: problemas con el diseño del juego al usar distintos tamaños de pantalla, problemas para implementar un menú
+ desplegable, problemas para implementar audios, problemas para crear ventanas emergentes.
+ - **Soluciones**: los problemas con diferentes tamaños de pantalla se han solucionado dejando los valores por defecto del tutorial
+ de Undum. Para el audio existe un problema por el cual no se reproduce la lista de audios que tiene el juego, reproduciendo solo el 
+ primero. Este error aún no ha podido ser solucionado. El problema con las ventanas emergentes se ha solucionado cambiando el tamaño
+ de las mismas y su disposición en pantalla. Los problemas con el menú del juego se han solucionado no implementándolo, en su lugar
+ se han tomado otras decisiones de diseño que hace innecesario tener un menú con distintas opciones.
+Para el siguiente sprint los requisitos que se implementarán son aquellos que tienen un valor demasiado alto o son innegociables. Con esto pretendemos dejar listo cuanto antes estos requisitos por si en el futuro apareciesen nuevos requisitos que nos dificultasen
+el poder implementar estos requisitos.
+ 
+### 7.SPRINT RETROSPECTIVE
+Haciendo una valoración de este sprint podemos decir que lo mejor que ha funcionado ha sido planificar la implementación de requisitos
+según su dificultad e importancia. En cuanto a cosas que tenemos que mejorar está la flexibilidad para incluir imprevistos en nuestra
+planificación. 
+ - **Plan de mejora**: en futuros sprint a la hora de realizar la planificación del trabajo se tendrá en cuenta posibles imprevistos
+ de cualquier tipo que puedan surgir. De esta manera no se producirán desajustes en los tiempos de desarrollo de las distinas tareas 
+ y se podrán completar todas en los plazos previstos. 
+ Así como una inspección más detallada de los plazos, las herramientas que estamos utilizando para las reuniones (en su caso WhatsApp debido a la situación, trabajmos de manera remota en su defecto).
+ 
+### 8.URLs
+  - https://trello.com/b/LbWNg5BI (Product Backlog)
+  - https://trello.com/b/Hir48jm6 (Sprint Backlog)
