@@ -25,7 +25,7 @@ Un *nacido de la bruma* es una persona que tiene la habilidad de quemar metales 
 - **Undécimo Metal:** este metal fue descubierto por Kelsier. Aunque no llegó a encontrarle ninguna utilidad, difundió rumores sobre este metal y su poder para acabar con el Lord Legislador entre los skaa y la nobleza.
 
 
-# Sprint 1
+# Sprint 1 (Product Owner: Álvaro Barranco García)
 ### 1.PRODUCT BACKLOG
 ![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/product_backlog.PNG)
 
@@ -78,7 +78,7 @@ planificación.
   - https://trello.com/b/hcqBWF40 (Sprint Backlog)
   
   
-# Sprint 2
+# Sprint 2 (Product Owner: Francisco Javier Torres Almagro)
 ### 1.PRODUCT BACKLOG
 ![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_srpint2_inicio.PNG)
 
