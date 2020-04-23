@@ -15,11 +15,10 @@
           rel="stylesheet" href="media/css/undum.css">
 	<link rel="shortcut icon" href="media/img/icon.png" />
 	<video autoplay muted loop id="myVideo">
-		<source src="media/img/page_bg.mp4" type="video/mp4">
+		<source src="media/img/page_bg.webm" type="video/webm">
 	</video>
 	<audio id="myAudio" autoplay>
-		<source src="media/music/song1.mp3" type="audio/mp3">
-		<source src="media/music/song2.mp3" type="audio/mp3">
+		<source src="media/music/track1.mp3" type="audio/mp3">
 	</audio>
 
     <!-- Soporte para dispositivos moviles -->
@@ -59,17 +58,38 @@
 
 			<!-- Panel izquierdo -->
 			<h1><b>Metales Alom&aacute;nticos</b></h1>
-			<p align="center">
-				<img src="media/img/Hierro.png"/><span style="cursor:pointer" id="myBtn1"> Hierro</span></br>
-				<img src="media/img/Acero.png"/><span style="cursor:pointer" id="myBtn2"> Acero</span></br>
-				<img src="media/img/Estaño.png"/><span style="cursor:pointer" id="myBtn3"> Esta&ntilde;o</span></br>
-				<img src="media/img/Peltre.png"/><span style="cursor:pointer" id="myBtn4"> Peltre</span></br>
-				<img src="media/img/Zinc.png"/><span style="cursor:pointer" id="myBtn5"> Zinc</span></br>
-				<img src="media/img/Laton.png"/><span style="cursor:pointer" id="myBtn6"> Lat&oacute;n</span></br>
-				<img src="media/img/Cobre.png"/><span style="cursor:pointer" id="myBtn7"> Cobre</span></br>
-				<img src="media/img/Bronce.png"/><span style="cursor:pointer" id="myBtn8"> Bronce</span></br>
-				<img src="media/img/Atium.png"/><span style="cursor:pointer" id="myBtn9"> Atium</span>
-			</p>
+			<div style="text-align:right">
+				<img src="media/img/Hierro.png"/><span style="cursor:pointer" id="myBtn1"> 
+					Hierro <progress id="pb_h" value="50" max="50"></progress>
+				</span></br>	
+				<img src="media/img/Acero.png"/><span style="cursor:pointer" id="myBtn2"> 
+					Acero <progress id="pb_a" value="50" max="50"></progress>
+				</span></br>
+				<img src="media/img/Estaño.png"/><span style="cursor:pointer" id="myBtn3"> 
+					Esta&ntilde;o <progress id="pb_e" value="50" max="50"></progress>
+				</span></br>
+				<img src="media/img/Peltre.png"/><span style="cursor:pointer" id="myBtn4"> 
+					Peltre <progress id="pb_p" value="50" max="50"></progress>
+				</span></br>
+				<img src="media/img/Zinc.png"/><span style="cursor:pointer" id="myBtn5"> 
+					Zinc <progress id="pb_z" value="50" max="50"></progress>
+				</span></br>
+				<img src="media/img/Laton.png"/><span style="cursor:pointer" id="myBtn6"> 
+					Lat&oacute;n <progress id="pb_l" value="50" max="50"></progress>
+				</span></br>
+				<img src="media/img/Cobre.png"/><span style="cursor:pointer" id="myBtn7"> 
+					Cobre <progress id="pb_c" value="50" max="50"></progress>
+				</span></br>
+				<img src="media/img/Bronce.png"/><span style="cursor:pointer" id="myBtn8"> 
+					Bronce <progress id="pb_b" value="50" max="50"></progress>
+				</span></br>
+				<img src="media/img/Atium.png"/><span style="cursor:pointer" id="myBtn9"> 
+					Atium <progress id="pb_at" value="30" max="30"></progress>
+				</span>
+				<span style="cursor:pointer" id="myBtn10"> 
+					Undécimo <progress id="pb_m" value="20" max="20"></progress>
+				</span>
+			</div>
 			<div id="myModal1" class="modal">
 				<div class="modal-content">
 					<span class="close">&times;</span>
@@ -168,6 +188,16 @@
 				</div>
 			</div>
 			
+			<div id="myModal10" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h1>Undécimo Metal</h1>
+					<p>
+						Uso desconocido. 
+					</p>
+				</div>
+			</div>
+			
 			<!-- Fin del panel izquierdo -->
         </div>
 
@@ -178,6 +208,10 @@
 					<div id="character_text_content"></div>
 				</div>
 				<div id="qualities"></div>
+			</div>
+			<div>
+				<h1><b>Progreso</b></h1>
+				<p align="middle"><progress id="pb_pro" value="0" max="100" class="progress"></progress></p>
 			</div>
 			<div>
 				<h1><b>Inventario</b></h1>
@@ -380,6 +414,57 @@
 		
 		<div id="sound_panel" class="tools sound">
 			<img src="media/img/sound-on.png" id="sound" onclick="sound()" title="Activar sonido" alt="Toggle sound"/>
+		</div>
+
+		<div id="help_panel" class="tools help">
+			<span style="cursor:pointer" id="myBtn11"> 
+				<img src="media/img/help.png" id="help" title="Ayuda" alt="Ayuda"/>
+			</span>
+			<div id="helpModal" class="modal-help">
+				<div class="content-help">
+					<span class="close">&times;</span>
+					<h1>Ayuda</h1>
+					<p id="ayuda" style="display:block">
+						<b>Acero:</b> al quemar este metal puedes empujar monedas y convertirlas en proyectiles.</br>
+						<b>Peltre:</b> al quemar este metal aumenta tu fuerza, agilidad y resistencia.</br>
+						<b>Dagas:</b> las dagas de cristal son perfectas para combate cuerpo a cuerpo ya que al no ser de metal no pueden ser atraídas por otro alomántico</br>
+						<b>Latón:</b> con este metal puedes aplacar las emociones de las personas. En este caso puedes usarlo contra los guardias para que te dejen pasar sin tener que pelear.
+					</p>
+					<p id="ayuda2" style="display:none">
+						<b>Esta&ntilde;o:</b> al quemar este metal tu agudeza visual se incrementa. Es muy útil para ver mejor en lugares con poca iluminación.</br>
+						<b>Monedas:</b> lanzas tus últimas monedas. Puede que no mates a todos los guardias.</br>
+						<b>Peltre:</b> al quemar este metal aumenta tu fuerza, agilidad y resistencia. Puedes usarlo para salir corriendo.
+					</p>
+					<p id="ayuda3" style="display:none">
+						<b>Atium:</b> este metal te permite ver el futuro. Es muy útil para predecir los ataques de tus rivales.</br>
+						<b>Polvo:</b> los inquisidores no pueden ver como las personas, pero sí que pueden percibir metales.
+					</p>
+					<p id="ayuda4" style="display:none">
+						<b>Peltre:</b> tú única opción es intentar soltarte para poder escapar.
+					</p>
+					<p id="ayuda5" style="display:none">
+						<b>Resistir:</b> si cedes estarás quemando un metal que puede acerte enfermar o no. Lo que es seguro es que para algo tiene que servir.</br>
+						<b>Ceder:</b> no sabes donde te encuentras y estás sola con un inquisidor. Si no haces lo que te dice encontrará algún modo de obligarte por la fuerza.
+					</p>
+					<p id="ayuda6" style="display:none">
+						<b>Alambre:</b> puedes intentar usarlo para forzar la cerradura.
+					</p>
+					<p id="ayuda7" style="display:none">
+						<b>Buscar pertenencias:</b> si buscas tus cosas, aparte de vestirte y evitar pillar una neumonía, puede que encuentres algo más útl que un simple cuchillo.</br>
+						<b>Instrumento afilado:</b> si regresa el inquisidor y te encuentra fuera de la celda descubrirás lo sádicos que pueden llegar a ser esos seres. Coge el cuchillo y vete.
+					</p>
+					<p id="ayuda8" style="display:none">
+						<b>Diario:</b> ahora llevas el diario contigo. Puedes leerlo siempre que quieras pulsando sobre el diario que se encuentra en tu inventario.
+					</p>
+					<p id="ayuda9" style="display:none">
+						<b>Hierro:</b> el hierro hace el efecto contrario que el acero, atraer metales. Si el peso del objeto metálico es mayor que la del usuario este será atraido hacia el objeto 
+						y no al revés.
+					</p>
+					<p id="ayuda10" style="display:none">
+						<b>Hierro:</b> para atravesar las vidrieras debes agarrarte a algo metálico que se encuentre dentro de la habitación de la torre.
+					</p>
+				</div>
+			</div>
 		</div>
       </div> <!-- Final del div.content_wrapper -->
 
