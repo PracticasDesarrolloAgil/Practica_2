@@ -87,11 +87,11 @@ undum.game.situations = {
 		hacia ellos. Uno de los guardias la apuntó con su lanza.</p>\
 		\
 		<p class='transient'>Podría hacerles frente atacándoles con monedas\
-		quemando <a href='acero_situacion1'>acero</a> o incluso\
-		pelear contra ellos quemando <a href='./peltre-boost'>peltre</a>. Aunque\
+		quemando <a onclick='reducir(pb_a)' href='acero_situacion1'>acero</a> o incluso\
+		pelear contra ellos quemando <a onclick='reducir(pb_p)' href='./peltre-boost'>peltre</a>. Aunque\
 		simplemente podría atacarles con sus <a href='dagas_situacion1'>dagas de cristal</a> y\
 		guardar esos metales para más tarde si le hicieran falta. Otra opción sería\
-		aplacarles quemando <a href='laton_situacion1'>latón</a> y no perder tiempo luchando\
+		aplacarles quemando <a onclick='reducir(pb_l)' href='laton_situacion1'>latón</a> y no perder tiempo luchando\
 		con aquellos guardias.</p>",
 		{
             actions: {
@@ -118,11 +118,11 @@ undum.game.situations = {
 		a más guardias, además, un guardia muerto era un problema menos del que preocuparse\
 		cuando encontrara al Lord Legislador.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(1);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("pasillo");
 				}
@@ -140,11 +140,11 @@ undum.game.situations = {
 		una banda de ladrones. Ahora, aunque movida por la ira tras la reciente muerte de\
 		Kelsier, se había convertido en una asesina.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(1);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("pasillo");
 				}
@@ -169,11 +169,11 @@ undum.game.situations = {
 		de su uniforme y se dirigió hacia la plaza. Los demás dudaron un momento, después lo siguieron,\
 		dejándole libre a Vin la entrada a palacio.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(1);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("pasillo");
 				}
@@ -203,7 +203,7 @@ undum.game.situations = {
 		Gracias al peltre Vin no se sentía cansada y no necesitó parar un momento para recuperar\
 		el aliento, por lo que siguió su camino hacia el interior del palacio.</p>\
 		\
-		<p class='transient'><a href='./pasillo-action'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(1);' href='./pasillo-action'>Continuar</a></p>",
 		{
 			actions: {
 				"pasillo-action": function(character, system, action) {
@@ -213,7 +213,7 @@ undum.game.situations = {
 						system.setQuality("fuerza", 4);
 						system.setQuality("agilidad", 6);
 						system.setQuality("resistencia", 5);
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 						
 						system.doLink("pasillo");
 				}
@@ -231,9 +231,9 @@ undum.game.situations = {
 		libertad como podía hacerlo en el exterior.</p>\
 		\
 		<p class='transient'> No tenía muchas opciones, al no poder luchar contra tantos enemigos en un lugar cerrado.\
-		Podría quemar <a href='./estanio-boost'>estaño</a> con la esperanza de poder ver algo en el pasillo que le pudiera ser de\
-		ayuda. Aunque también podría <a href='acero2_situacion2'>lanzarles las últimas monedas</a> que le quedaba y huir mientras\
-		trataban de ponerse a salvo. O simplemente aumentar su velocidad quemando <a href='./peltre-boost'>peltre</a> y salir\
+		Podría quemar <a onclick='reducir(pb_e)' href='./estanio-boost'>estaño</a> con la esperanza de poder ver algo en el pasillo que le pudiera ser de\
+		ayuda. Aunque también podría <a onclick='reducir(pb_a)' href='acero2_situacion2'>lanzarles las últimas monedas</a> que le quedaba y huir mientras\
+		trataban de ponerse a salvo. O simplemente aumentar su velocidad quemando <a onclick='reducir(pb_p)' href='./peltre-boost'>peltre</a> y salir\
 		corriendo.</p>",
 		{
             actions: {
@@ -263,7 +263,7 @@ undum.game.situations = {
 		la deslumbraron. Uno de los guardias alcanzó a golpearla con su bastón en el\
 		hombro izquierdo. El fuerte dolor hizo que reaccionara, apagó su estaño y siguió\
 		corriendo por el pasillo. Mientras lo hacía se fijó en aquellas linternas, más en\
-		concreto en los soportes metálicos de las linternas. Si quemaba <a href='./estanio-decrease'>acero</a> se podría\
+		concreto en los soportes metálicos de las linternas. Si quemaba <a onclick='reducir(pb_a)' href='./estanio-decrease'>acero</a> se podría\
 		impulsar hacia delante empujando aquellos soportes.</p>",
 		{
             actions: {
@@ -283,11 +283,11 @@ undum.game.situations = {
 		lejos que ni corriendo podrían alcanzarla. Continuó sin prisa, entrando en otro\
 		pasillo que daba a una cámara central abovedada.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(2);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("camara");
 				}
@@ -305,11 +305,11 @@ undum.game.situations = {
 		demasiado lejos. Cuando sus voces apenas se oían, VIn dejó de correr. Pasó a otro\
 		pasillo que desembocaba en una cámara central abovedada.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(2);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("camara");
 				}
@@ -323,7 +323,7 @@ undum.game.situations = {
 		lejos de ellos que apenas se les podía oír. Llegó a un pasillo que le llevó a una\
 		sala central abovedada.</p>\
 		\
-		<p class='transient'><a href='./camara-action'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(2);' href='./camara-action'>Continuar</a></p>",
 		{
 			actions: {
 				"camara-action": function(character, system, action) {
@@ -333,7 +333,7 @@ undum.game.situations = {
 						system.setQuality("fuerza", 4);
 						system.setQuality("agilidad", 6);
 						system.setQuality("resistencia", 5);
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 						
 						system.doLink("camara");
 				}
@@ -357,7 +357,7 @@ undum.game.situations = {
 		intentaron descubrir, si lo que allí estaba guardado estaba relacionado con el poder del\
 		Lord Legislador.</p>\
 		\
-		<p class='transient'>Para poder deshacerse de los inquisidores tenía que actuar rápido. Si quemaba <a href='atium_situacion3'>Atium</a> podría\
+		<p class='transient'>Para poder deshacerse de los inquisidores tenía que actuar rápido. Si quemaba <a onclick='reducir(pb_at)' href='atium_situacion3'>Atium</a> podría\
 		realizar un ataque por sorpresa anteponiendose a sus movimientos, pero corría el peligro de\
 		que ellos utilizaran también Atium. Si eso ocurría, Vin no podría ver qué harían los inquisidores\
 		ni los inquisidores podrían ver lo que haría ella, o peor aún, que sus reservas de Atium fuesen mayor que las de Vin y\
@@ -372,7 +372,7 @@ undum.game.situations = {
 		"<p>Al comenzar a quemar Atium surgieron dos sombras idénticas a esos dos inquisidores.\
 		Se dirigían hacia ella mientras empuñaban sus hachas de obsidiana. Tenía que hacer algo\
 		antes de que esa visión se materializase y fuese alcanzada por esas afiladas hachas de\
-		piedra. Tenía un plan para el cual tendría que dar un empujón quemando <a href='acero_situacion3'>acero</a>.</p>"
+		piedra. Tenía un plan para el cual tendría que dar un empujón quemando <a onclick='reducir(pb_a)' href='acero_situacion3'>acero</a>.</p>"
 	),
 	acero_situacion3: new undum.SimpleSituation(
 		"<p>Antes de dirigirse hacia el palacio del Lord Legislador se le ocurrió una idea,\
@@ -385,11 +385,11 @@ undum.game.situations = {
 		a punta por las puntas de flecha. Uno cayó al suelo, el otro aguantó a duras penas en pie.\
 		Aprovechando que apenas podían moverse por sus heridas, Vin corrió y entró en aquel edificio.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(3)' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("edificio");
 				}
@@ -402,11 +402,11 @@ undum.game.situations = {
 		Vin enseguida supo que su idea había funcionado al ver cómo aquellos dos habían reaccionado.\
 		Después corrió hacia la puerta del edificio interior pasando entre los dos inquisidores.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(3);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("edificio");
 				}
@@ -445,7 +445,7 @@ undum.game.situations = {
 		\
 		<p>- Entonces averiguad todo lo que podáis y después deshazte de ella. - dijo el Lord Legislador casi sin fuerzas.</p>\
 		\
-		<p class='transient'>Tenía que conseguir escapar, quizás quemando <a href='./peltre-boost'>peltre</a> podría soltarse</p>",
+		<p class='transient'>Tenía que conseguir escapar, quizás quemando <a onclick='reducir(pb_p)' href='./peltre-boost'>peltre</a> podría soltarse</p>",
 		{
             actions: {
 				"peltre-boost": function(character, system, action) {
@@ -463,7 +463,7 @@ undum.game.situations = {
 	),
 	peltre_situacion4: new undum.SimpleSituation(
 		"<p class='once'>Vin seguía retorciéndose mientras avivaba peltre. Aún así el inquisidor la seguía sujetando y ni se inmutaba ante las\
-		patadas que Vin le propinaba. En ese momento se acordó: el <a href='./peltre-decrease'>Undécimo metal</a>. Aún no lo había usado y no sabía qué efecto iba\
+		patadas que Vin le propinaba. En ese momento se acordó: el <a onclick='reducir(pb_m)' href='./peltre-decrease'>Undécimo metal</a>. Aún no lo había usado y no sabía qué efecto iba\
 		a producir pero según Kelsier con ese metal podría enfrentarse al Lord Legislador.</p>",
 		{
             actions: {
@@ -493,12 +493,12 @@ undum.game.situations = {
 		No entendía nada de lo que estaba sucediendo, entonces el metal se agotó.</p>\
 		<p>El inquisidor la lanzó al suelo y mientras intentaba levantarse sintió un fuerte golpe. Después todo se volvió negro.</p>\
 		\
-		<p class='transient'><a href='./celda-action'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(4);' href='./celda-action'>Continuar</a></p>",
 		{
             actions: {
                 "celda-action": function(character, system, action) {
 						system.setQuality("salud", character.qualities.salud-2);
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("celda");
 				}
@@ -517,31 +517,35 @@ undum.game.situations = {
 		<p class='once'>Bien, ahora quémalo. - le ordenó el inquisidor.</br>\
 		Vin notó una nueva reserva de metal en su interior. Nunca antes había utilizado ese metal por lo que trató\
 		de resistirse. No sabía qué metal era, si no era un metal alomántico podría hacerla enfermar o incluso matarla.\
-		Tenía que <a href='./negarse-action'>resistirse</a>.</p>",
+		Tenía que <a href='./negarse-action'>resistirse</a>. Pero si no lo hacía el inquisidor no dudaría en torturarla hasta que <a href='./ceder-action'>cediese</a>.</p>",
 		{
             actions: {
                 "negarse-action": function(character, system, action) {
 						system.setQuality("salud", character.qualities.salud-1);
 					
 						system.doLink("negarse_situacion5");
+				},
+				"ceder-action": function(character, system, action) {
+				
+					system.doLink("aluminio_situacion5");
 				}
             }
         }
 	),
 	negarse_situacion5: new undum.SimpleSituation(
 		"<p class='once'>Vin negó con la cabeza. El inquisidor respondió retorciéndole el brazo con más fuerza, hasta el punto que\
-		Vin pensó que se lo iba a arrancar. Finalmente, Vin no pudo resistir el dolor y <a href='aluminio_situacion5'>quemó el extraño metal</a>.</p>"
+		Vin pensó que se lo iba a arrancar. Finalmente, Vin no pudo resistir el dolor y <a onclick='aluminio()' href='aluminio_situacion5'>quemó el extraño metal</a>.</p>"
 	),
 	aluminio_situacion5: new undum.SimpleSituation(
 		"<p>De repente, dejó de notar sus reservas de metal. El inquisidor la arrojó al suelo, dio media vuelta y salió de la celda.\
 		Vin se incorporó mientras se tocaba el brazo. Intentó encontrar alguna reserva de metal en su interior pero ni siquiera sentía\
 		el metal que le había hecho tragar el inquisidor. No entendía nada, Kelsier nunca le habló de ese metal.</p>\
 		\
-		<p class='transient'><a href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(5);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("mazmorras");
 				}
@@ -569,11 +573,11 @@ undum.game.situations = {
 		que el peltre le habría facilitado el proceso. Sin perder más tiempo Vin comenzó a forzar la cerradura. Todavía recordaba algunos trucos\
 		de su vida como ladrona, así que no le resultó muy difícil abrirla.</p>\
 		\
-		<p class='transient'><a onclick='mostrar1()' href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='mostrar1(); progreso(); ayuda(6);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("sala");
 				}
@@ -593,19 +597,19 @@ undum.game.situations = {
 		ver el final.</p>\
 		\
 		<p class='once'>Tenía que salir de ahí cuanto antes, no podía arriesgarse a que la pillasen los inquisidores ahora que estaba totalmente indefensa.\
-		Estaba segura de que si intentaba escapar del palacio se encontraría con algún guardia, o peor aún, con un inquisidor. Si pudiese <a href='./buscar'>encontrar</a>\
+		Estaba segura de que si intentaba escapar del palacio se encontraría con algún guardia, o peor aún, con un inquisidor. Si pudiese <a onclick='aumentar()' href='./buscar'>encontrar</a>\
 		sus pertenencias todavía podría buscar al Lord Legislador, sin embargo, el inquisidor volvería en cualquier momento para interrogarla.\
-		Quizás la mejor opción era llevarse uno de esos <a onclick='mostrar2()' href='./instrumento'>instrumentos de tortura afilados</a>, aunque no le sería de mucha ayuda si tenía que enfrentarse\
+		Quizás la mejor opción era llevarse uno de esos <a onclick='mostrar2(); fin();' href='./instrumento'>instrumentos de tortura afilados</a>, aunque no le sería de mucha ayuda si tenía que enfrentarse\
 		a un inquisidor, era mejor que nada.</p>",
 		{
             actions: {
                 "instrumento": function(character, system, action) {
-						system.setQuality("progreso", 100);
+						//system.setQuality("progreso", 100);
 						
 						system.doLink("instrumento_situacion7");
 				},
 				"buscar": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 						
 						system.doLink("buscar_situacion7");
 				}
@@ -631,7 +635,7 @@ undum.game.situations = {
 		<p>Ingirió todo el contenido del frasquito, inmediatamente notó cómo aparecían sus reservas de metal en su interior. Sus dagas\
 		de cristal también se encontraban ahí. Tan pronto hubo terminado de vestirse, salió corriendo por el pasillo de la derecha.</p>\
 		\
-		<p class='transient'><a href='biblioteca'>Continuar</a></p>"
+		<p class='transient'><a onclick='progreso(); ayuda(7);' href='biblioteca'>Continuar</a></p>"
 	),
 	biblioteca: new undum.SimpleSituation(
 		"<h1>Biblioteca</h1>\
@@ -648,11 +652,11 @@ undum.game.situations = {
 		de aspecto muy viejo. Parecía que solo con mirarlo se iba a romper. Aún así algo había algo en el libro que le hacía\
 		sentir la imperiosa necesidad de leerlo. Se acercó un poco más al atril, abrió el libro y comenzó a leer:</p>\
 		\
-		<p class='transient'><a onclick='mostrar3()' href='./progreso'>Continuar</a></p>",
+		<p class='transient'><a onclick='mostrar3(); progreso(); ayuda(8);' href='./progreso'>Continuar</a></p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("patio");
 				}
@@ -672,7 +676,7 @@ undum.game.situations = {
 		oportunidad de vencerle. Miró hacia arriba, buscando el origen de esos pulsos. Las numerosas torres se alzaban como miles de agujas\
 		rectas y negras.</p>\
 		\
-		<p class='once'>Tenía que usar <a href='hierro_situacion9'>hierro</a> para buscar algún anclaje en un punto alto al que poder sujetarse, de esa\
+		<p class='once'>Tenía que usar <a onclick='reducir(pb_h)' href='hierro_situacion9'>hierro</a> para buscar algún anclaje en un punto alto al que poder sujetarse, de esa\
 		manera tendría una visión másamplia del palacio.</p>"
 	),
 	hierro_situacion9: new undum.SimpleSituation(
@@ -685,7 +689,7 @@ undum.game.situations = {
 		masacraría a todos.</p>\
 		\
 		<p class='once'>Aunque desde su posición tenía una mejor visión que desde abajo, la oscuridad de la noche le dificultaba un poco el trabajo.\
-		No tenía tiempo para esperar a que amaneciese, tenía que quemar <a href='./estanio-boost'>estaño</a>.</p>",
+		No tenía tiempo para esperar a que amaneciese, tenía que quemar <a onclick='reducir(pb_e)' href='./estanio-boost'>estaño</a>.</p>",
 		{
             actions: {
                 "estanio-boost": function(character, system, action) {
@@ -704,12 +708,12 @@ undum.game.situations = {
 		<p>Vin se lanzó al vacío, agarrándose a distintos anclajes hasta llegar a la torre más cercana a aquella de las vidrieras iluminadas.\
 		Tenía que estar en esa torre, podía sentir la presencia de él en el interior.</p>\
 		\
-		<p class='transient'><a href='./estanio-decrease'>Continuar</a></p>",
+		<p class='transient'><a onclick='progreso(); ayuda(9);' href='./estanio-decrease'>Continuar</a></p>",
 		{
             actions: {
                 "estanio-decrease": function(character, system, action) {
 						system.setQuality("vision", 7);
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 						
 						system.doLink("torre");
 				}
@@ -719,7 +723,7 @@ undum.game.situations = {
 	torre: new undum.SimpleSituation(
 		"<h1>Torre del Trono</h1>\
 		<img src='media/img/trono.jpg' class='float_right'>\
-		<p class='once'>Si se impulsaba lo suficientemente fuerte podría entrar en la torre atravesando las vidrieras. Avivando <a href='hierro_situacion10'>hierro</a> vería cualquier anclaje\
+		<p class='once'>Si se impulsaba lo suficientemente fuerte podría entrar en la torre atravesando las vidrieras. Avivando <a onclick='reducir(pb_h)' href='hierro_situacion10'>hierro</a> vería cualquier anclaje\
 		dentro de la habitación en la que se encontraba el Lord Legislador.</p>"
 	),
 	hierro_situacion10: new undum.SimpleSituation(
@@ -754,7 +758,7 @@ undum.game.situations = {
 		aire mientras era aplastada contra la columna. Le ardía el estómago, parecía como si una mano le estuviera destrozando las entrañas.\
 		No era posible, <i>¿de verdad tenía tanto poder que podía empujar contra los metales de su estómago?</i></p>\
 		\
-		<p class='once'>Tenía que pensar algo rápido antes de que muriera aplastada. Peltre, si quemaba <a href='./peltre-boost'>peltre</a> su cuerpo se fortalecería y podría resistir\
+		<p class='once'>Tenía que pensar algo rápido antes de que muriera aplastada. Peltre, si quemaba <a onclick='reducir(pb_p)' href='./peltre-boost'>peltre</a> su cuerpo se fortalecería y podría resistir\
 		el dolor. Eso le daría un poco más de tiempo.</p>",
 		{
             actions: {
@@ -791,7 +795,7 @@ undum.game.situations = {
 		\
 		<p class='once'><i>¿Podría ser que el Undécimo metal fuese una aleación de atium o de oro? Entonces si el oro y el aitum hacen cosas similares pero\
 		diferentes, son como… Son como los demás metales que se agrupan de cuatro en cuatro. Están los físicos (hierro, acero, estaño, peltre),\
-		los mentales (zinc, latón, cobre, bronce) y los que influyen sobre el tiempo (oro y su aleación, atium y su aleación). El <a href='./peltre-decrease'>Undécimo metal</a>\
+		los mentales (zinc, latón, cobre, bronce) y los que influyen sobre el tiempo (oro y su aleación, atium y su aleación). El <a onclick='reducir(pb_m)' href='./peltre-decrease'>Undécimo metal</a>\
 		tenía que ser la pareja opuesta del oro.</i></p>",
 		{
             actions: {
@@ -809,7 +813,7 @@ undum.game.situations = {
         }
 	),
 	undecimo_situacion10: new undum.SimpleSituation(
-		"<p class='once'>Quemó el Undécimo metal, y como la vez anterior, el yo-pasado del Lord Legislador volvió a aparecer. Ahora tenía que <a href='hierro2_situacion10'>buscar</a> dónde agarrarse</p>"
+		"<p class='once'>Quemó el Undécimo metal, y como la vez anterior, el yo-pasado del Lord Legislador volvió a aparecer. Ahora tenía que <a onclick='reducir(pb_h)' href='hierro2_situacion10'>buscar</a> dónde agarrarse</p>"
 	),
 	hierro2_situacion10: new undum.SimpleSituation(
 		"<p class='once'>Dio un tirón avivando hierro del soporte de una linterna que estaba a su derecha, saltando en esa dirección. Vin jadeó, libre del\
@@ -826,7 +830,7 @@ undum.game.situations = {
 		\
 		<p><i>No puede ser</i>, pensó Vin mientras retrocedía asustada. <i>Ni los brumosos brazos de peltre podrían resistir en pie con esas heridas.</i></p>\
 		\
-		<p class='once'>Las lágrimas comenzaron a caerle por las mejillas. No sabía qué hacer. Aún sentía una pequeña reserva del <a href='undecimo2_situacion10'>Undécimo metal</a> en su interior.</p>"
+		<p class='once'>Las lágrimas comenzaron a caerle por las mejillas. No sabía qué hacer. Aún sentía una pequeña reserva del <a onclick='reducir(pb_m)' href='undecimo2_situacion10'>Undécimo metal</a> en su interior.</p>"
 	),
 	undecimo2_situacion10: new undum.SimpleSituation(
 		"<p>En un último intento, totalmente desesperada, volvió a avivar el Undécimo metal. Pensaba que ese metal tenía que hacer algo más. La imagen de un\
@@ -893,11 +897,11 @@ undum.game.situations = {
 		obtener poderes. Sin embargo, la ferruquimia funcionaba de otro modo. Los ferruquimistas usan metales que están en contacto\
 		con su cuerpo para almacenar sus propias capacidades físicas, para después usar esas reservas cuando sea necesario.</p>\
 		\
-		<p class='once'>Vin se fijó en él, llevaba numerosos anillos y brazaletes metálicos. Tenía que intentar <a href='./progreso'>arrebatárselos</a>.</p>",
+		<p class='once'>Vin se fijó en él, llevaba numerosos anillos y brazaletes metálicos. Tenía que intentar <a onclick='reducir(pb_h); progreso();' href='./progreso'>arrebatárselos</a>.</p>",
 		{
             actions: {
                 "progreso": function(character, system, action) {
-						system.setQuality("progreso", character.qualities.progreso+10);
+						//system.setQuality("progreso", character.qualities.progreso+10);
 					
 						system.doLink("hierro3_situacion10");
 				}
@@ -949,9 +953,6 @@ undum.game.qualities = {
     ),
 	resistencia: new undum.NumericQuality(
         "Resistencia", {priority:"0005", group:'stats'}
-    ),
-    progreso: new undum.NumericQuality(
-        "%", {priority:"0001", group:'progress'}
     )
 };
 // ---------------------------------------------------------------------------
@@ -960,10 +961,8 @@ undum.game.init = function(character, system) {
     character.qualities.salud = 12;
     character.qualities.fuerza = 4;
     character.qualities.agilidad = 6;
-	character.qualities.vision = 7;
-	character.qualities.resistencia = 5;
-    character.qualities.progreso = 0;
-    system.setCharacterText("<p>You are starting on an exciting journey.</p>");
+    character.qualities.vision = 7;
+    character.qualities.resistencia = 5;
 };
 
 /* Audio */
@@ -984,6 +983,74 @@ function sound() {
 		img.title = "Sonido desactivado";
 	}
 };
+
+/* Progress bar */
+function reducir( id ) {
+	if (id == pb_h){
+		document.getElementById("pb_h").value -= 10;
+	}
+	if (id == pb_a){
+		document.getElementById("pb_a").value -= 10;
+	}
+	if (id == pb_e){
+		document.getElementById("pb_e").value -= 10;
+	}
+	if (id == pb_p){
+		document.getElementById("pb_p").value -= 10;
+	}
+	if (id == pb_z){
+		document.getElementById("pb_z").value -= 10;
+	}
+	if (id == pb_l){
+		document.getElementById("pb_l").value -= 10;
+	}
+	if (id == pb_c){
+		document.getElementById("pb_c").value -= 10;
+	}
+	if (id == pb_b){
+		document.getElementById("pb_b").value -= 10;
+	}
+	if (id == pb_at){
+		document.getElementById("pb_at").value -= 10;
+	}
+	if (id == pb_m){
+		document.getElementById("pb_m").value -= 10;
+	}
+}
+
+function aluminio() {
+	document.getElementById("pb_h").value = 0;
+	document.getElementById("pb_a").value = 0;
+	document.getElementById("pb_e").value = 0;
+	document.getElementById("pb_p").value = 0;
+	document.getElementById("pb_z").value = 0;
+	document.getElementById("pb_l").value = 0;
+	document.getElementById("pb_c").value = 0;
+	document.getElementById("pb_b").value = 0;
+	document.getElementById("pb_at").value = 0;
+	document.getElementById("pb_m").value = 0;
+}
+
+function aumentar() {
+	document.getElementById("pb_h").value = 50;
+	document.getElementById("pb_a").value = 50;
+	document.getElementById("pb_e").value = 50;
+	document.getElementById("pb_p").value = 50;
+	document.getElementById("pb_z").value = 50;
+	document.getElementById("pb_l").value = 50;
+	document.getElementById("pb_c").value = 50;
+	document.getElementById("pb_b").value = 50;
+	document.getElementById("pb_at").value = 30;
+	document.getElementById("pb_m").value = 20;
+}
+
+function progreso() {
+	document.getElementById("pb_pro").value += 10;
+}
+
+function fin() {
+	document.getElementById("pb_pro").value = 100;
+}
 
 /* Objetos */
 var ocultar = false;
@@ -1182,4 +1249,75 @@ window.onclick = function(event) {
   if (event.target == modal9) {
     modal9.style.display = "none";
   }
+}
+
+/* Ventana 10 */
+var modal10 = document.getElementById("myModal10");
+var btn10 = document.getElementById("myBtn10");
+var span10 = document.getElementsByClassName("close")[9];
+btn10.onclick = function() {
+  modal10.style.display = "block";
+}
+span10.onclick = function() {
+  modal10.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal10) {
+    modal10.style.display = "none";
+  }
 } 
+
+/* Ventana Help */
+var modal11 = document.getElementById("helpModal");
+var btn11 = document.getElementById("myBtn11");
+var span11 = document.getElementsByClassName("close")[11];
+btn11.onclick = function() {
+  modal11.style.display = "block";
+}
+span11.onclick = function() {
+  modal11.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal11) {
+    modal11.style.display = "none";
+  }
+} 
+
+function ayuda(num) {
+	if ( num == 1 ) {
+		document.getElementById("ayuda").style.display = "none";
+		document.getElementById("ayuda2").style.display = "block";
+	}
+	if ( num == 2 ) {
+		document.getElementById("ayuda2").style.display = "none";
+		document.getElementById("ayuda3").style.display = "block";
+	}
+	if ( num == 3 ) {
+		document.getElementById("ayuda3").style.display = "none";
+		document.getElementById("ayuda4").style.display = "block";
+	}
+	if ( num == 4 ) {
+		document.getElementById("ayuda4").style.display = "none";
+		document.getElementById("ayuda5").style.display = "block";
+	}
+	if ( num == 5 ) {
+		document.getElementById("ayuda5").style.display = "none";
+		document.getElementById("ayuda6").style.display = "block";
+	}
+	if ( num == 6 ) {
+		document.getElementById("ayuda6").style.display = "none";
+		document.getElementById("ayuda7").style.display = "block";
+	}
+	if ( num == 7 ) {
+		document.getElementById("ayuda7").style.display = "none";
+		document.getElementById("ayuda8").style.display = "block";
+	}
+	if ( num == 8 ) {
+		document.getElementById("ayuda8").style.display = "none";
+		document.getElementById("ayuda9").style.display = "block";
+	}
+	if ( num == 9 ) {
+		document.getElementById("ayuda9").style.display = "none";
+		document.getElementById("ayuda10").style.display = "block";
+	}
+}
