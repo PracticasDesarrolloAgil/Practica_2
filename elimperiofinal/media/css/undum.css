@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 1.6em;
     overflow-y: scroll;
-	background-color: #464646;
+	  background-color: #464646;
 }
 #myVideo {
     position: fixed;
@@ -517,6 +517,7 @@ progress[value]::-moz-progress-bar {
   color: black;
   position: static;
 }
+
 @media screen and (max-width: 998px) {
 	.tools.sound {
 		visibility: hidden;
