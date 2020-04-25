@@ -139,10 +139,15 @@ con valores bajos. Así si tenemos problemas y quedan algunas sin implementar se
 ![Captura Sprint Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint3_final.png)
 
 ### 6.SPRINT REVIEW
-  
+Todas las tareas de las historias de usuario que se añadieron al Sprint Backlog (sin contar con las 14 y 16) han sido completadas con éxito. A lo largo del sprint no han surgido apenas problemas, salvo los problemas que han podido surgir en las historias de usuario antes mencionadas, dado que no encontrábamos la forma de poder realizar un seguimiento mayor de los usuarios que entraban en el juego.
+- **Problemas**: Los problemas que hemos podido encontrar ha sido con el código de color de la página al haber unos cambios muy bruscos de colores, a su vez, hemos detectado que la barra de progreso al volver a iniciar el juego en otro navegador volvía a estar inicializada a 0, aunque cuando se daba a "comenzar" volvía al estado por el que íbamos.
+-** Soluciones**: El problema del % de la barra no ha supuesto un fallo fatal en la ejecución del juego por lo que hemos obviado una posible solución dado que volvía al estado por el que estaba dándole a comenzar.
  
 ### 7.SPRINT RETROSPECTIVE
+En este sprint, hemos logrado un mejor reparto de las tareas realizando un daily scrum cada 2 días en el que continuábamos con la realización de la práctica, apoyándonos los unos con los otros.
 
+-**Plan de mejora**: El plan de mejora que hemos observado, ha sido realizar reuniones más a menudo en horarios igual de flexibles antes, manteniendo la prioridad a horas de clase.
+Las herramientas utilizadas en este sprint han sido las mismas que en los anteriores.
  
 ### 8.URLs
   - https://trello.com/b/LbWNg5BI/product-backlog (Product Backlog)
