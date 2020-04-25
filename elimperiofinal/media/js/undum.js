@@ -57,7 +57,7 @@
     var isMobileDevice = function() {
         return (navigator.userAgent.toLowerCase().search(
             /iphone|ipad|palm|blackberry|android/
-        ) >= 0 || $("html").width() <= 640);
+        ) >= 0 || $("html").width() <= 980);
     };
 
     // Assertion
