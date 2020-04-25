@@ -117,3 +117,39 @@ las tareas del nuevo requisito también han sido completadas.
 ### 8.URLs
   - https://trello.com/b/LbWNg5BI (Product Backlog)
   - https://trello.com/b/Hir48jm6 (Sprint Backlog)
+  
+  
+  # Sprint 3 (Product Owner: Safwan Atef Rahif)
+### 1.PRODUCT BACKLOG
+![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_srpint2_inicio.PNG)
+
+### 2.PRODUCT BACKLOG REFINEMENT
+![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement_sprint2.PNG)
+
+### 3.PRODUCT BACKLOG (fin Sprint)
+![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_final.png)
+
+### 4.SPRINT BACKLOG
+![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint2_inicio.PNG)
+Para este sprint hemos implementado todas las historias de usuario con un valor innegociable. También hemos implementado otras
+historias con un valor medio/bajo. De este modo para el último sprint solo nos quedan por implementar las historias de usuario 
+con valores bajos. Así si tenemos problemas y quedan algunas sin implementar serían aquellas menos relevantes.
+
+### 5.SPRINT BACKLOG (fin Sprint)
+![Captura Sprint Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint3_final.png)
+
+### 6.SPRINT REVIEW
+Todas las tareas de las historias de usuario que se añadieron al Sprint Backlog (sin contar con las 14 y 16) han sido completadas con éxito. A lo largo del sprint no han surgido apenas problemas, salvo los problemas que han podido surgir en las historias de usuario antes mencionadas, dado que no encontrábamos la forma de poder realizar un seguimiento mayor de los usuarios que entraban en el juego.
+- **Problemas**: Los problemas que hemos podido encontrar ha sido con el código de color de la página al haber unos cambios muy bruscos de colores, a su vez, hemos detectado que la barra de progreso al volver a iniciar el juego en otro navegador volvía a estar inicializada a 0, aunque cuando se daba a "comenzar" volvía al estado por el que íbamos.
+-** Soluciones**: El problema del % de la barra no ha supuesto un fallo fatal en la ejecución del juego por lo que hemos obviado una posible solución dado que volvía al estado por el que estaba dándole a comenzar.
+ 
+### 7.SPRINT RETROSPECTIVE
+En este sprint, hemos logrado un mejor reparto de las tareas realizando un daily scrum cada 2 días en el que continuábamos con la realización de la práctica, apoyándonos los unos con los otros.
+
+-**Plan de mejora**: El plan de mejora que hemos observado, ha sido realizar reuniones más a menudo en horarios igual de flexibles antes, manteniendo la prioridad a horas de clase.
+Las herramientas utilizadas en este sprint han sido las mismas que en los anteriores.
+ 
+### 8.URLs
+  - https://trello.com/b/LbWNg5BI/product-backlog (Product Backlog)
+  - https://trello.com/b/QdyEsRRY/sprintbacklog-3 (Sprint Backlog)
+
