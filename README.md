@@ -124,7 +124,7 @@ las tareas del nuevo requisito también han sido completadas.
 ![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_srpint2_inicio.PNG)
 
 ### 2.PRODUCT BACKLOG REFINEMENT
-![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement_sprint2.PNG)
+![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_final.png)
 
 ### 3.PRODUCT BACKLOG (fin Sprint)
 ![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_final.png)
