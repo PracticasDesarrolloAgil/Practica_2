@@ -1,0 +1,75 @@
+body {
+    font-family: Palatino, Times, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    overflow-y: scroll;
+	background-color: #03032B;
+}
+.contenedor {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header {
+	background-color: #060651;
+	margin: 20px 0;
+}
+header h1 {
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+.main {
+	width: 70%;
+	color: white;
+	background: #060651;
+	float: left;
+	box-sizing: border-box;
+}
+.main img {
+	width: 100%;
+	height: auto;
+}
+aside {
+	width: 30%;
+	color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #03032B;
+	float: left;
+}
+footer {
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px;
+	color: white;
+	background: #03032B;
+}
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 400px) {
+	.contenedor {
+		width: 100%;
+	}
+	aside {
+		display: none;
+	}
+}
