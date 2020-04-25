@@ -117,3 +117,34 @@ las tareas del nuevo requisito también han sido completadas.
 ### 8.URLs
   - https://trello.com/b/LbWNg5BI (Product Backlog)
   - https://trello.com/b/Hir48jm6 (Sprint Backlog)
+  
+  
+  # Sprint 3 (Product Owner: Safwan Atef Rahif)
+### 1.PRODUCT BACKLOG
+![Captura Product Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_srpint2_inicio.PNG)
+
+### 2.PRODUCT BACKLOG REFINEMENT
+![Captura Product Backlog Refinement Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_refinement_sprint2.PNG)
+
+### 3.PRODUCT BACKLOG (fin Sprint)
+![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_final.png)
+
+### 4.SPRINT BACKLOG
+![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint2_inicio.PNG)
+Para este sprint hemos implementado todas las historias de usuario con un valor innegociable. También hemos implementado otras
+historias con un valor medio/bajo. De este modo para el último sprint solo nos quedan por implementar las historias de usuario 
+con valores bajos. Así si tenemos problemas y quedan algunas sin implementar serían aquellas menos relevantes.
+
+### 5.SPRINT BACKLOG (fin Sprint)
+![Captura Sprint Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint3_final.png)
+
+### 6.SPRINT REVIEW
+  
+ 
+### 7.SPRINT RETROSPECTIVE
+
+ 
+### 8.URLs
+  - https://trello.com/b/LbWNg5BI/product-backlog (Product Backlog)
+  - https://trello.com/b/QdyEsRRY/sprintbacklog-3 (Sprint Backlog)
+
