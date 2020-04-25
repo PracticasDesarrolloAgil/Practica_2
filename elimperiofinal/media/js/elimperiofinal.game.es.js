@@ -28,55 +28,9 @@ undum.game.slideUpSpeed = 500
 
 /* Situaciones */
 undum.game.situations = {
-	start: new undum.SimpleSituation(
-		"<p class='transient'><b>ANTES DE EMPEZAR...</b></br>\
-		</br>\
-		En el lejano mundo de Scadrial, mil años atrás, el Héroe de las Eras\
-		que auguraban las profecías ascendió a la divinidad en el Pozo de la Ascensión\
-		para poner fin al terrible mal que acechaba a la humanidad conocida como la\
-		Profundidad. Aunque la Profundidad fue derrotada, el Héroe adoptó el título de\
-		Lord Legislador, unificó todo el mundo e instauró el Imperio Final. Para mantener\
-		controlada a toda la humanidad estableció el Ministerio de Acero, creó a los\
-		Inquisidores de acero como sus ejecutores, a los Kandra como sus espías y a\
-		los Koloss como sus violentos soldados.</br>\
-		</br>\
-		Tras su ascensión convirtió a sus aliados en nobles, de los que desciende la\
-		actual nobleza, y los convirtió en los primeros nacidos de la bruma. Aquellos que\
-		no los apoyaron fueron convertidos en skaa, la clase trabajadora del Imperio Final,\
-		y la gran mayoría acabó convirtiéndose en siervos o esclavos. Como consecuencia\
-		también de su ascensión la naturaleza de todo el planeta cambió. Surgieron montes\
-		de ceniza, muchas zonas se volvieron inhabitables e infértiles y por la noche comenzó\
-		a surgir una densa bruma que lo cubría todo.</br>\
-		</br>\
-		En la actualidad, lo que sería el siglo XVIII de nuestro mundo, una joven ladrona\
-		llamada Vin conoció a una peculiar banda de ladrones que le permitió unirse a ellos.\
-		Al poco tiempo el líder de la banda, Kelsier, descubrió que Vin era una nacida de la\
-		bruma al igual que él pero ella no lo sabía. Kelsier decidió entrenarla para que\
-		aprendiese a usar sus poderes y le reveló un golpe que la banda estaba planeando,\
-		acabar con el Lord Legislador.</br>\
-		</br>\
-		Meses después, tras haberse infiltrado entre la nobleza y provocar una guerra entre\
-		las casas nobles  más importantes y formar un ejército rebelde, Kelsier destruyó los\
-		Pozos de Hathsin y con ello acabó con los suministros de Atium del Lord Legislador.\
-		En respuesta a este ataque, el Lord Legislador ordenó realizar ejecuciones públicas\
-		masivas de skaa en Luthadel, la capital del Imperio. En medio de las ejecuciones\
-		Kelsier se enfrentó al Lord Legislador para impedir las ejecuciones pero fue asesinado.</br>\
-		</br>\
-		Los skaa, tras presenciar cómo alguien había sido capaz de enfrentarse al Lord\
-		Legislador y hartos de los abusos de la nobleza y el Lord Legislador, se rebelaron.\
-		Con la nobleza destruyéndose a sí misma en una guerra de casas y una rebelión skaa,\
-		la capital del Imperio estaba al borde del colapso. Aprovechando esta situación,\
-		la banda de Kelsier envió a su ejército rebelde a la ciudad para apoyar la rebelión\
-		skaa pero si no acababan pronto con el Lord Legislador tarde o temprano los matarían\
-		a todos. Para evitar que la rebelión fuera aplastada y los miembros de la banda\
-		fuesen capturados y ejecutados, Vin se dirigió hacia el palacio del Lord Legislador\
-		para matarle.</br>\
-		</br>\
-		<a href='entrada'>Jugar</a></p>"
-	),
-    entrada: new undum.SimpleSituation(
+    start: new undum.SimpleSituation(
         "<h1>Entrada a Kredik Shaw</h1>\
-		<img src='media/img/entrada.jpg' class='float_right'>\
+		<img src='media/img/entrada.jpg' class='float_center'>\
         <p>Vin se dirigió hacia Kredik Shaw. Del cielo de color rojo cubierto de\
 		nubes comenzó a caer ceniza. A lo lejos se podía ver reflejado en las brumas\
 		las antorchas de los skaa. La revuelta estaba ganando adeptos y cada\
@@ -933,8 +887,8 @@ undum.game.start = "start";
 // ---------------------------------------------------------------------------
 /* Grupos de propiedades */
 undum.game.qualityGroups = {
-    stats: new undum.QualityGroup(null, {priority:"0001"}),
-    progress: new undum.QualityGroup('Progreso', {priority:"0002"})
+    stats: new undum.QualityGroup(null, {priority:"0001"})
+    //progress: new undum.QualityGroup('Progreso', {priority:"0002"})
 };
 // ---------------------------------------------------------------------------
 /* Propiedades */
@@ -954,6 +908,9 @@ undum.game.qualities = {
 	resistencia: new undum.NumericQuality(
         "Resistencia", {priority:"0005", group:'stats'}
     )
+    /*progreso: new undum.NumericQuality(
+        "%", {priority:"0001", group:'progress'}
+    )*/
 };
 // ---------------------------------------------------------------------------
 /* Inicializacion */
@@ -961,15 +918,18 @@ undum.game.init = function(character, system) {
     character.qualities.salud = 12;
     character.qualities.fuerza = 4;
     character.qualities.agilidad = 6;
-    character.qualities.vision = 7;
-    character.qualities.resistencia = 5;
+	character.qualities.vision = 7;
+	character.qualities.resistencia = 5;
+    //character.qualities.progreso = 0;
 };
 
 /* Audio */
+document.getElementById("myAudio").loop = true;
 var audio = document.getElementById("myAudio");
 var img = document.getElementById("sound");
 var mute = false;
 function sound() {
+	document.getElementById("myAudio").volume = 0.2;
 	if (mute == false) {
 		audio.play();
 		mute = true;
@@ -1045,7 +1005,9 @@ function aumentar() {
 }
 
 function progreso() {
+	//var value = document.getElementById("pb_pro").value;
 	document.getElementById("pb_pro").value += 10;
+	//document.getElementById("pb_pro").html(value + '%'); 
 }
 
 function fin() {
@@ -1088,24 +1050,7 @@ function mostrar3() {
 	}
 }
 
-var libro = document.getElementById("libroModal");
-var libroBtn = document.getElementById("obj3");
-var span9 = document.getElementsByClassName("close")[9];
-libroBtn.onclick = function() {
-  libro.style.display = "block";
-}
-span9.onclick = function() {
-  libro.style.display = "none";
-}
-window.onclick = function(event) {
-  if (event.target == libro) {
-    libro.style.display = "none";
-  }
-}
 
-function abrir() {
-	libro.style.display = "block";
-};
 
 /* Ventana 1 */
 var modal1 = document.getElementById("myModal1");
@@ -1249,7 +1194,7 @@ window.onclick = function(event) {
   if (event.target == modal9) {
     modal9.style.display = "none";
   }
-}
+} 
 
 /* Ventana 10 */
 var modal10 = document.getElementById("myModal10");
@@ -1267,6 +1212,26 @@ window.onclick = function(event) {
   }
 } 
 
+var libro = document.getElementById("libroModal");
+var libroBtn = document.getElementById("obj3");
+var spanL = document.getElementsByClassName("close")[10];
+libroBtn.onclick = function() {
+  libro.style.display = "block";
+}
+spanL.onclick = function() {
+  libro.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == libro) {
+    libro.style.display = "none";
+  }
+}
+
+function abrir() {
+	libro.style.display = "block";
+};
+
+
 /* Ventana Help */
 var modal11 = document.getElementById("helpModal");
 var btn11 = document.getElementById("myBtn11");
@@ -1280,6 +1245,22 @@ span11.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal11) {
     modal11.style.display = "none";
+  }
+} 
+
+/* Ventana ayuda movil */
+var modal12 = document.getElementById("helpModal2");
+var btn12 = document.getElementById("myBtn12");
+var span12 = document.getElementsByClassName("cerrar")[12];
+btn12.onclick = function() {
+  modal12.style.display = "block";
+}
+span12.onclick = function() {
+  modal12.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal12) {
+    modal12.style.display = "none";
   }
 } 
 
