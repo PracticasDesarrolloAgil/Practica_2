@@ -130,7 +130,7 @@ las tareas del nuevo requisito también han sido completadas.
 ![Captura Product Backlog Final Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/pb_final.png)
 
 ### 4.SPRINT BACKLOG
-![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint3_inicio.PNG)
+![Captura Sprint Backlog Trello](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/sprint3_inicio.png)
 Para este sprint hemos implementado todas las historias de usuario con un valor innegociable. También hemos implementado otras
 historias con un valor medio/bajo. De este modo para el último sprint solo nos quedan por implementar las historias de usuario 
 con valores bajos. Así si tenemos problemas y quedan algunas sin implementar serían aquellas menos relevantes.
