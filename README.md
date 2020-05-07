@@ -183,19 +183,21 @@ Las herramientas utilizadas en este sprint han sido las mismas que en los anteri
     ![Gráficas Sprint 1 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%201%20parte%201.png)
     
   - ### Tabla Sprint 2
-  ![Tabla Sprint 2 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20sprint%202%20parte%201.png)
-  ![Tabla Sprint 2 parte 2](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20sprint%202%20parte%202.png)
+    ![Tabla Sprint 2 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20sprint%202%20parte%201.png)
+    ![Tabla Sprint 2 parte 2](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20sprint%202%20parte%202.png)
   
   - Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 2
     ![Gráficas Sprint 2 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%202%20parte%201.png)
  
   
   - ### Tabla Sprint 3
-  ![Tabla Sprint 3](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20de%20sprint%203.png)
+    ![Tabla Sprint 3](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20de%20sprint%203.png)
   
   - Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 3
     ![Gráficas Sprint 3 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%203%20parte%201.png)
- 
+
   
 ### Enlace a la Hoja de Cálculo: https://drive.google.com/open?id=1SOeX_OZXX2Q44ys9M6TdBhMrSwHYmKx5lCP-sTc26lk
   
+   - ### Conclusiones:
+   Como conclusiones, podemos ver en las gráficas, que realizando un proyecto, mediante sprints, se puede llegar a conseguir versiones del proyecto que pueden ser utilizadas. También podemos apreciar como conforme va llegando la fecha de entrega, se van realizando bastante más tareas, aunque en el último sprint se ha llegado a conseguir cierto equilibrio entre momentos (inicial y final)
