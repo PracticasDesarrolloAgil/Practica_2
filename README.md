@@ -157,3 +157,46 @@ Las herramientas utilizadas en este sprint han sido las mismas que en los anteri
   - https://trello.com/b/QdyEsRRY/sprintbacklog-3 (Sprint Backlog)
   - http://practicada.byethost17.com/landing_page.html (URL del juego)
 
+
+# Métricas
+### Tabla para los datos de las gráficas del proyecto en su totalidad
+![Tabla para los datos de las gráficas del proyecto en su totalidad](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20para%20los%20datos%20de%20las%20gr%C3%A1ficas%20del%20proyecto%20en%20su%20totalidad.png)
+
+  - ### Gráficas burndown y burn-up de los puntos de historia
+  ![Gráfica burn-up de los puntos de historia](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Puntos%20de%20Historia%20de%20Usuario%20asociados%20al%20proyecto%20burn-up.png)
+  
+  ![Gráfica burndown del Valor asociado a las Historias de Usuario](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Puntos%20de%20Historia%20de%20Usuario%20asociados%20al%20proyecto%20burndown.png)
+  
+  - ### Gráficas burndown y burn-up del Valor asociado a las Historias de Usuario
+  ![Gráficas burndown del Valor asociado a las Historias de Usuario](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Valor%20asociado%20a%20las%20Historias%20de%20Usuario%20del%20proyecto%20burndown.png)
+  
+  ![Gráficas burn-up del Valor asociado a las Historias de Usuario](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Valor%20de%20las%20Historias%20de%20Usuario%20asociados%20al%20proyecto%20burn-up.png)
+  
+### Tabla de velocidades
+![Tabla de velocidades](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20de%20velocidades.png)
+
+### Tablas con los datos para las gráficas de los sprints
+  - ### Tabla Sprint 1
+  ![Tabla Sprint 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20de%20sprint%201.png)
+  
+  - Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 1
+    ![Gráficas Sprint 1 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%201%20parte%201.png)
+    ![Gráficas Sprint 1 parte 2](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%201%20parte%202.png)
+    
+  - ### Tabla Sprint 2
+  ![Tabla Sprint 2 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20sprint%202%20parte%201.png)
+  ![Tabla Sprint 2 parte 2](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20sprint%202%20parte%202.png)
+  
+  - Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 2
+  ![Gráficas Sprint 2 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%202%20parte%201.png)
+  ![Gráficas Sprint 2 parte 2](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%202%20parte%202.png)
+  
+  - ### Tabla Sprint 3
+  ![Tabla Sprint 3](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Tabla%20de%20sprint%203.png)
+  
+  - Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 3
+  ![Gráficas Sprint 3 parte 1](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%203%20parte%201.png)
+  ![Gráficas Sprint 3 parte 2](https://github.com/PracticasDesarrolloAgil/Practica_2/blob/master/Capturas%20m%C3%A9tricas/Gr%C3%A1ficas%20burndown%20y%20burn-up%20Sprint%203%20parte%202.png)
+  
+### Enlace a la Hoja de Cálculo: https://drive.google.com/open?id=1SOeX_OZXX2Q44ys9M6TdBhMrSwHYmKx5lCP-sTc26lk
+  
